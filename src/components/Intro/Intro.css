@@ -2,6 +2,10 @@
   background-image: url(../../images/backgrounds/intro.jpg);
 }
 
-.Intro .row {
+.Intro > * {
   justify-content: center;
+}
+
+.row > a > * {
+  color: #000;
 }
