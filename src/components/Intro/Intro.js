@@ -1,27 +1,28 @@
 import React from 'react';
 import { Container, Row, NavLink } from 'reactstrap';
-import {
-  FaTwitter,
-  FaLinkedinIn,
-  FaGithub,
-  FaMediumM,
-  FaEnvelope,
-} from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedinIn, FaMediumM } from 'react-icons/fa';
+import Emoji from '../Emoji/Emoji';
 
-import './Intro.css';
+import './Intro.scss';
 
 const Intro = () => {
   return (
-    <Container className="Intro">
+    <Container fluid className="intro">
       <Row>
-        <h1>WELCOME TO MY CORNER OF THE NET</h1>
+        <h1>
+          WELCOME TO <span className="brand">MY</span> CORNER OF THE NET
+        </h1>
       </Row>
 
       <Row>
-        <p>Programming, Powerlifting && Pizza</p>
+        <p>
+          Programming <Emoji label="programming" symbol="👨🏽‍💻" />, Powerlifting{' '}
+          <Emoji label="powerlifting" symbol="🏋🏽‍♂️" /> && Pizza{' '}
+          <Emoji label="pizza" symbol="🍕" />
+        </p>
       </Row>
 
-      <Row>
+      <Row className="social">
         <NavLink target="_blank" href="https://bit.ly/seanprashad_github">
           <FaGithub />
         </NavLink>
@@ -30,9 +31,6 @@ const Intro = () => {
         </NavLink>
         <NavLink target="_blank" href="https://bit.ly/seanprashad_medium">
           <FaMediumM />
-        </NavLink>
-        <NavLink target="_blank" href="https://bit.ly/seanprashad_twitter">
-          <FaTwitter />
         </NavLink>
         <NavLink target="_blank" href="mailto:S.Prashad@outlook.com">
           <FaEnvelope />
