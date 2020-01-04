@@ -28,15 +28,15 @@ const About = () => {
             <Row>
               <p>
                 In my spare time, you can usually find me{' '}
-                <a href="http://bit.ly/secret_sean" target="Instagram">
+                <a href="http://bit.ly/secret_sean" target="instagram">
                   <strong>training</strong>
                 </a>
                 , helping in the{' '}
-                <a href="http://bit.ly/github_prs" target="GitHub">
+                <a href="http://bit.ly/github_prs" target="github">
                   <strong>OSS community</strong>
                 </a>
                 , and letting my imagination run wild at{' '}
-                <a className="page-scroll" href="#hackathons">
+                <a href="#hackathons">
                   <strong>hackathons</strong>
                 </a>
                 .
@@ -57,7 +57,6 @@ const About = () => {
             <DevIcon viewBox="0 0 32 32" icon="github_badge" />
             <DevIcon viewBox="0 0 32 32" icon="docker" />
             <DevIcon viewBox="0 0 32 32" icon="mysql" />
-            {/* Consider adding more languages here - resize accordingly */}
           </Col>
         </Row>
       </Col>
