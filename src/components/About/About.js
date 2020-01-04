@@ -50,13 +50,14 @@ const About = () => {
             </Row>
           </Col>
           <Col sm={2}>
-            <DevIcon icon="react" />
-            <DevIcon icon="javascript" />
-            <DevIcon icon="java" />
-            <DevIcon icon="go" />
-            <DevIcon icon="github_badge" />
-            <DevIcon icon="docker" />
-            <DevIcon icon="mysql" />
+            <DevIcon viewBox="0 0 32 32" icon="java" />
+            <DevIcon viewBox="0 0 32 32" icon="javascript" />
+            <DevIcon viewBox="0 0 32 32" icon="go" />
+            <DevIcon viewBox="0 0 32 32" icon="react" />
+            <DevIcon viewBox="0 0 32 32" icon="github_badge" />
+            <DevIcon viewBox="0 0 32 32" icon="docker" />
+            <DevIcon viewBox="0 0 32 32" icon="mysql" />
+            {/* Consider adding more languages here - resize accordingly */}
           </Col>
         </Row>
       </Col>

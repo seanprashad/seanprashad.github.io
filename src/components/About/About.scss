@@ -1,5 +1,4 @@
 .about {
-  align-items: center;
   background-image: url(../../images/backgrounds/about.jpg);
   background-size: cover;
   display: flex;
@@ -29,9 +28,7 @@
   .about-content {
     > * {
       display: flex;
-      flex-direction: column;
       flex-wrap: wrap;
-      align-items: center;
       justify-content: space-evenly;
     }
 
@@ -46,6 +43,8 @@
 
     svg {
       fill: #fff;
+      max-width: 30%;
+      min-width: 30%;
     }
   }
 }
