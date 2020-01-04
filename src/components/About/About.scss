@@ -3,7 +3,7 @@
   background-size: cover;
   display: flex;
 
-  .col {
+  > .col {
     padding: 150px 0 150px 0;
   }
 
@@ -26,14 +26,6 @@
       color: #fff;
       font-size: 18px;
       text-align: center;
-    }
-  }
-
-  .about-content {
-    > * {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
     }
 
     a {
