@@ -1,0 +1,47 @@
+.education {
+  background-image: url(../../images/backgrounds/education.jpg);
+  background-size: cover;
+  display: flex;
+
+  .col {
+    padding: 150px 0 150px 0;
+  }
+
+  .row {
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      color: #fff;
+      font-size: 40px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      color: #fff;
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    p {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+
+  .education-content {
+    > * {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
