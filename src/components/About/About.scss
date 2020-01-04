@@ -7,6 +7,10 @@
     padding: 150px 0 150px 0;
   }
 
+  .col > .row:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
   .row {
     justify-content: center;
     align-items: center;
