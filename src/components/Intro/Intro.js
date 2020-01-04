@@ -24,22 +24,22 @@ const Intro = () => {
         </Row>
 
         <Row className="social">
-          <Col sm={1}>
+          <Col xs={1}>
             <NavLink target="_blank" href="https://bit.ly/seanprashad_github">
               <FaGithub />
             </NavLink>
           </Col>
-          <Col sm={1}>
+          <Col xs={1}>
             <NavLink target="_blank" href="https://bit.ly/seanprashad_linkedin">
               <FaLinkedin />
             </NavLink>
           </Col>
-          <Col sm={1}>
+          <Col xs={1}>
             <NavLink target="_blank" href="https://bit.ly/seanprashad_medium">
               <FaMedium />
             </NavLink>
           </Col>
-          <Col sm={1}>
+          <Col xs={1}>
             <NavLink target="_blank" href="mailto:S.Prashad@outlook.com">
               <FaEnvelope />
             </NavLink>
