@@ -1,0 +1,51 @@
+.about {
+  align-items: center;
+  background-image: url(../../images/backgrounds/about.jpg);
+  background-size: cover;
+  display: flex;
+
+  .col {
+    padding: 150px 0 150px 0;
+  }
+
+  .row {
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      color: #fff;
+      font-size: 40px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    p {
+      color: #fff;
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+
+  .about-content {
+    > * {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    svg {
+      fill: #fff;
+    }
+  }
+}
