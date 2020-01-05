@@ -7,6 +7,7 @@ import Education from './Education/Education';
 import Experience from './Experience/Experience';
 import OpenSource from './OpenSource/OpenSource';
 import Hackathon from './Hackathon/Hackathon';
+import Contact from './Contact/Contact';
 
 import './App.scss';
 
@@ -20,6 +21,7 @@ function App() {
       <Experience />
       <OpenSource />
       <Hackathon />
+      <Contact />
     </div>
   );
 }
