@@ -29,7 +29,7 @@ const Experience = () => {
                 <h3>Software Engineer Intern</h3>
               </Row>
               <Row>
-                <p>PagerDuty, Toronto ON</p>
+                <h4>PagerDuty, Toronto ON</h4>
               </Row>
               <Row>
                 <p>September 2019 - December 2019</p>
@@ -45,7 +45,7 @@ const Experience = () => {
                 <h3>Software Engineer Intern</h3>
               </Row>
               <Row>
-                <p>Wattpad, Toronto ON</p>
+                <h4>Wattpad, Toronto ON</h4>
               </Row>
               <Row>
                 <p>January 2019 - April 2019</p>
@@ -61,7 +61,7 @@ const Experience = () => {
                 <h3>Software Engineer Intern</h3>
               </Row>
               <Row>
-                <p>Capital One, Toronto ON</p>
+                <h4>Capital One, Toronto ON</h4>
               </Row>
               <Row>
                 <p>May 2018 - August 2018</p>
@@ -80,7 +80,7 @@ const Experience = () => {
                 <h3>Tutor</h3>
               </Row>
               <Row>
-                <p>Seneca, Toronto ON</p>
+                <h4>Seneca, Toronto ON</h4>
               </Row>
               <Row>
                 <p>September 2017 - April 2018</p>
@@ -96,7 +96,7 @@ const Experience = () => {
                 <h3>Software Engineer Intern</h3>
               </Row>
               <Row>
-                <p>Bank of Montreal, Toronto ON</p>
+                <h4>Bank of Montreal, Toronto ON</h4>
               </Row>
               <Row>
                 <p>May 2017 - September 2017</p>
@@ -115,7 +115,7 @@ const Experience = () => {
                 <h3>Software Engineer</h3>
               </Row>
               <Row>
-                <p>Vincent Associates, Toronto ON</p>
+                <h4>Vincent Associates, Toronto ON</h4>
               </Row>
               <Row>
                 <p>May 2015 - August 2016</p>
