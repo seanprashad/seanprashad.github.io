@@ -21,7 +21,7 @@ const Hackathon = () => {
         <Col>
           <Col>
             <Row>
-              <Col sm={4}>
+              <Col sm={3}>
                 <h4>
                   <span className="winna">4th Place</span> - Genesys Hackathon
                 </h4>
