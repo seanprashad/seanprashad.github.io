@@ -1,7 +1,9 @@
 .contact {
+  align-items: center;
   background-image: url(../../images/backgrounds/contact.jpg);
   background-size: cover;
   display: flex;
+  height: 100%;
 
   > .col {
     padding: 150px 0 150px 0;
