@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b09d9eb7.chunk.css",
+    "main.js": "/static/js/main.fd519943.chunk.js",
+    "main.js.map": "/static/js/main.fd519943.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.68f3c85c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.68f3c85c.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.138c13c8.chunk.js": "/static/js/2.138c13c8.chunk.js",
+    "static/js/2.138c13c8.chunk.js.map": "/static/js/2.138c13c8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5a15018dbadbd711f0e9a1495ce73aeb.js": "/precache-manifest.5a15018dbadbd711f0e9a1495ce73aeb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.b09d9eb7.chunk.css.map": "/static/css/main.b09d9eb7.chunk.css.map",
+    "static/js/2.138c13c8.chunk.js.LICENSE": "/static/js/2.138c13c8.chunk.js.LICENSE",
+    "static/media/About.scss": "/static/media/about.90e90cf3.jpg",
+    "static/media/about.jpg": "/static/media/about.c250321c.jpg",
+    "static/media/Contact.scss": "/static/media/contact.c9999eae.jpg",
+    "static/media/Education.scss": "/static/media/education.b74bc4fb.jpg",
+    "static/media/Experience.scss": "/static/media/experience.ae0b11e8.jpg",
+    "static/media/firefox.png": "/static/media/firefox.c6523570.png",
+    "static/media/genesys.png": "/static/media/genesys.f51c3748.png",
+    "static/media/gm-hack-ai.png": "/static/media/gm-hack-ai.e37992f9.png",
+    "static/media/Hackathon.scss": "/static/media/hackathon.a1d35325.jpg",
+    "static/media/hacking-good.png": "/static/media/hacking-good.e65b0460.png",
+    "static/media/Intro.scss": "/static/media/intro.28931077.jpg",
+    "static/media/open-ideo.png": "/static/media/open-ideo.304958ad.png",
+    "static/media/OpenSource.scss": "/static/media/opensource.5b05e611.jpg",
+    "static/media/osce-days.png": "/static/media/osce-days.ac26bd3d.png",
+    "static/media/rbc-ngi.png": "/static/media/rbc-ngi.24d09fc2.png",
+    "static/media/tensorflow.png": "/static/media/tensorflow.51ff19f6.png",
+    "static/media/tohacks.png": "/static/media/tohacks.7ec3ae64.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68f3c85c.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.138c13c8.chunk.js",
+    "static/css/main.b09d9eb7.chunk.css",
+    "static/js/main.fd519943.chunk.js"
+  ]
+}
