@@ -9,7 +9,7 @@ import './OpenSource.scss';
 
 const OpenSource = () => {
   return (
-    <Container className="openSource" fluid>
+    <Container className="open-source" fluid>
       <Col>
         <Row>
           <h2>Open Source</h2>

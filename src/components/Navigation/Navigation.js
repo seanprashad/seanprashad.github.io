@@ -5,10 +5,11 @@ import {
   Nav,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   NavItem,
   NavLink,
 } from 'reactstrap';
+
+import { Link } from 'react-scroll';
 
 import './Navigation.scss';
 
@@ -20,24 +21,67 @@ const Navigation = () => {
   return (
     <Navbar color="dark" dark expand="md" fixed="top">
       <Container>
-        <NavbarBrand>Sean Prashad</NavbarBrand>
+        <Link
+          to="intro"
+          className="navbar-brand"
+          activeClass="active"
+          spy
+          smooth
+          duration={1000}
+        >
+          Sean Prashad
+        </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="#about">About Me</NavLink>
+              <Link to="about" activeClass="active" spy smooth duration={1000}>
+                About Me
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink href="#education">Education</NavLink>
+              <Link
+                to="education"
+                activeClass="active"
+                spy
+                smooth
+                duration={1000}
+              >
+                Education
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink href="#experience">Experience</NavLink>
+              <Link
+                to="experience"
+                activeClass="active"
+                spy
+                smooth
+                duration={1000}
+              >
+                Experience
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink href="#open-source">Open Source</NavLink>
+              <Link
+                to="open-source"
+                activeClass="active"
+                spy
+                smooth
+                duration={1000}
+              >
+                Open Source
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink href="#hackathons">Hackathons</NavLink>
+              <Link
+                to="hackathon"
+                activeClass="active"
+                spy
+                smooth
+                duration={1000}
+              >
+                Hackathons
+              </Link>
             </NavItem>
             <NavItem>
               <NavLink target="_blank" href="https://bit.ly/seanprashad_medium">
@@ -45,7 +89,15 @@ const Navigation = () => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#contact">Contact</NavLink>
+              <Link
+                to="contact"
+                activeClass="active"
+                spy
+                smooth
+                duration={1000}
+              >
+                Contact
+              </Link>
             </NavItem>
           </Nav>
         </Collapse>

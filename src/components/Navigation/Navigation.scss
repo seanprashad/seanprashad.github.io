@@ -4,21 +4,21 @@
   text-transform: uppercase;
 }
 
-.navbar-nav .nav-link {
-  color: #fff !important;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
+.navbar-nav {
+  .nav-item {
+    letter-spacing: 1px;
+    margin-left: 20px;
+    text-align: center;
+    text-transform: uppercase;
 
-.nav-item {
-  margin-left: 10px;
-  text-align: center;
+    a {
+      color: #fff !important;
+      display: inline;
+      font-size: 14px;
+    }
 
-  a {
-    font-size: 14px;
-  }
-
-  a:hover {
-    color: #e75926 !important;
+    a:hover {
+      color: #e75926 !important;
+    }
   }
 }
