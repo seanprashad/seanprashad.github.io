@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, NavLink } from 'reactstrap';
 import { FaEnvelope, FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa';
 import Emoji from '../Shared/Emoji/Emoji';
+import { Event } from '../Tracking';
 
 import './Intro.scss';
 
@@ -29,7 +30,7 @@ const Intro = () => {
               target="_blank"
               href="https://bit.ly/seanprashad_github"
               onClick={() =>
-                Event('Contact', 'Clicked a social link', 'GitHub link')
+                Event('Intro', 'Clicked GitHub link', 'GitHub link')
               }
             >
               <FaGithub />
@@ -40,7 +41,7 @@ const Intro = () => {
               target="_blank"
               href="https://bit.ly/seanprashad_linkedin"
               onClick={() =>
-                Event('Contact', 'Clicked a social link', 'LinkedIn link')
+                Event('Intro', 'Clicked LinkedIn link', 'LinkedIn link')
               }
             >
               <FaLinkedin />
@@ -51,7 +52,7 @@ const Intro = () => {
               target="_blank"
               href="https://bit.ly/seanprashad_medium"
               onClick={() =>
-                Event('Contact', 'Clicked a social link', 'Medium link')
+                Event('Intro', 'Clicked Medium link', 'Medium link')
               }
             >
               <FaMedium />
@@ -61,9 +62,7 @@ const Intro = () => {
             <NavLink
               target="_blank"
               href="mailto:S[dot]Prashad[at]outlook.com"
-              onClick={() =>
-                Event('Contact', 'Clicked a social link', 'Email link')
-              }
+              onClick={() => Event('Intro', 'Clicked Email link', 'Email link')}
             >
               <FaEnvelope />
             </NavLink>

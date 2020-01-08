@@ -29,7 +29,11 @@ const Navigation = () => {
           smooth
           duration={1000}
           onClick={() =>
-            Event('Navigation', 'Clicked a nav link', 'Sean Prashad link')
+            Event(
+              'Navigation',
+              'Clicked Sean Prashad link',
+              'Sean Prashad link',
+            )
           }
         >
           Sean Prashad
@@ -45,7 +49,7 @@ const Navigation = () => {
                 smooth
                 duration={1000}
                 onClick={() =>
-                  Event('Navigation', 'Clicked a nav link', 'About Me link')
+                  Event('Navigation', 'Clicked About Me link', 'About Me link')
                 }
               >
                 About Me
@@ -59,7 +63,11 @@ const Navigation = () => {
                 smooth
                 duration={1000}
                 onClick={() =>
-                  Event('Navigation', 'Clicked a nav link', 'Education link')
+                  Event(
+                    'Navigation',
+                    'Clicked Education link',
+                    'Education link',
+                  )
                 }
               >
                 Education
@@ -73,7 +81,11 @@ const Navigation = () => {
                 smooth
                 duration={1000}
                 onClick={() =>
-                  Event('Navigation', 'Clicked a nav link', 'Experience link')
+                  Event(
+                    'Navigation',
+                    'Clicked Experience link',
+                    'Experience link',
+                  )
                 }
               >
                 Experience
@@ -87,7 +99,11 @@ const Navigation = () => {
                 smooth
                 duration={1000}
                 onClick={() =>
-                  Event('Navigation', 'Clicked a nav link', 'Open Source link')
+                  Event(
+                    'Navigation',
+                    'Clicked Open Source link',
+                    'Open Source link',
+                  )
                 }
               >
                 Open Source
@@ -101,7 +117,11 @@ const Navigation = () => {
                 smooth
                 duration={1000}
                 onClick={() =>
-                  Event('Navigation', 'Clicked a nav link', 'Hackathons link')
+                  Event(
+                    'Navigation',
+                    'Clicked Hackathons link',
+                    'Hackathons link',
+                  )
                 }
               >
                 Hackathons
@@ -112,7 +132,7 @@ const Navigation = () => {
                 target="_blank"
                 href="https://bit.ly/seanprashad_medium"
                 onClick={() =>
-                  Event('Navigation', 'Clicked a nav link', 'Blog link')
+                  Event('Navigation', 'Clicked Blog link', 'Blog link')
                 }
               >
                 Blog
@@ -126,7 +146,7 @@ const Navigation = () => {
                 smooth
                 duration={1000}
                 onClick={() =>
-                  Event('Navigation', 'Clicked a nav link', 'Contact link')
+                  Event('Navigation', 'Clicked Contact link', 'Contact link')
                 }
               >
                 Contact

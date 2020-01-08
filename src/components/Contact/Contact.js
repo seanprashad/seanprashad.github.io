@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, NavLink } from 'reactstrap';
 import { FaEnvelope, FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa';
 import Emoji from '../Shared/Emoji/Emoji';
+import { Event } from '../Tracking';
 
 import './Contact.scss';
 
@@ -23,7 +24,7 @@ const Contact = () => {
                 target="_blank"
                 href="https://bit.ly/seanprashad_github"
                 onClick={() =>
-                  Event('Contact', 'Clicked a social link', 'GitHub link')
+                  Event('Contact', 'Clicked GitHub link', 'GitHub link')
                 }
               >
                 <FaGithub />
@@ -34,7 +35,7 @@ const Contact = () => {
                 target="_blank"
                 href="https://bit.ly/seanprashad_linkedin"
                 onClick={() =>
-                  Event('Contact', 'Clicked a social link', 'LinkedIn link')
+                  Event('Contact', 'Clicked LinkedIn link', 'LinkedIn link')
                 }
               >
                 <FaLinkedin />
@@ -45,7 +46,7 @@ const Contact = () => {
                 target="_blank"
                 href="https://bit.ly/seanprashad_medium"
                 onClick={() =>
-                  Event('Contact', 'Clicked a social link', 'Medium link')
+                  Event('Contact', 'Clicked Medium link', 'Medium link')
                 }
               >
                 <FaMedium />
@@ -56,7 +57,7 @@ const Contact = () => {
                 target="_blank"
                 href="mailto:S[dot]Prashad[at]outlook.com"
                 onClick={() =>
-                  Event('Contact', 'Clicked a social link', 'Email link')
+                  Event('Contact', 'Clicked Email link', 'Email link')
                 }
               >
                 <FaEnvelope />

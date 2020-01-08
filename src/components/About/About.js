@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import DevIcon from 'devicon-react-svg';
+import { Event } from '../Tracking';
 
 import aboutImg from '../../images/about.jpg';
 
@@ -29,15 +30,40 @@ const About = () => {
               <Row>
                 <p>
                   In my spare time, you can usually find me{' '}
-                  <a href="http://bit.ly/secret_sean" target="instagram">
+                  <a
+                    href="http://bit.ly/secret_sean"
+                    target="instagram"
+                    onClick={() =>
+                      Event('About', 'Clicked Instagram link', 'Instagram link')
+                    }
+                  >
                     <strong>training</strong>
                   </a>
                   , helping in the{' '}
-                  <a href="http://bit.ly/github_prs" target="github">
+                  <a
+                    href="http://bit.ly/github_prs"
+                    target="github"
+                    onClick={() =>
+                      Event(
+                        'About',
+                        "Clicked GitHub PR's link",
+                        "GitHub PR's link",
+                      )
+                    }
+                  >
                     <strong>OSS community</strong>
                   </a>
                   , and letting my imagination run wild at{' '}
-                  <a href="#hackathons">
+                  <a
+                    href="#hackathons"
+                    onClick={() =>
+                      Event(
+                        'About',
+                        'Clicked Hackathons link',
+                        'Hackathons link',
+                      )
+                    }
+                  >
                     <strong>hackathons</strong>
                   </a>
                   .

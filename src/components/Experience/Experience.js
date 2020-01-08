@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
+import { Event } from '../Tracking';
 
 import pagerdutyImg from '../../images/thumbnails/companies/pagerduty.png';
 import wattpadImg from '../../images/thumbnails/companies/wattpad.png';
@@ -21,7 +22,17 @@ const Experience = () => {
           <Row>
             <Col sm={3}>
               <Row>
-                <a href="https://bit.ly/pagerduty_home" target="pagerduty">
+                <a
+                  href="https://bit.ly/pagerduty_home"
+                  target="pagerduty"
+                  onClick={() =>
+                    Event(
+                      'Experience',
+                      'Clicked PagerDuty company link',
+                      'PagerDuty company link',
+                    )
+                  }
+                >
                   <img src={pagerdutyImg} alt="pagerduty" />
                 </a>
               </Row>
@@ -37,7 +48,17 @@ const Experience = () => {
             </Col>
             <Col sm={3}>
               <Row>
-                <a href="https://bit.ly/wattpad_home" target="wattpad">
+                <a
+                  href="https://bit.ly/wattpad_home"
+                  target="wattpad"
+                  onClick={() =>
+                    Event(
+                      'Experience',
+                      'Clicked Wattpad company link',
+                      'Wattpad company link',
+                    )
+                  }
+                >
                   <img src={wattpadImg} alt="wattpad" />
                 </a>
               </Row>
@@ -53,7 +74,17 @@ const Experience = () => {
             </Col>
             <Col sm={3}>
               <Row>
-                <a href="https://bit.ly/capitalone_home" target="capital-one">
+                <a
+                  href="https://bit.ly/capitalone_home"
+                  target="capital-one"
+                  onClick={() =>
+                    Event(
+                      'Experience',
+                      'Clicked Capital One company link',
+                      'Capital One company link',
+                    )
+                  }
+                >
                   <img src={capitalOneImg} alt="capital-one" />
                 </a>
               </Row>
@@ -72,7 +103,17 @@ const Experience = () => {
           <Row>
             <Col sm={3}>
               <Row>
-                <a href="https://bit.ly/seneca_home" target="seneca">
+                <a
+                  href="https://bit.ly/seneca_home"
+                  target="seneca"
+                  onClick={() =>
+                    Event(
+                      'Experience',
+                      'Clicked Seneca company link',
+                      'Seneca company link',
+                    )
+                  }
+                >
                   <img src={senecaImg} alt="seneca" />
                 </a>
               </Row>
@@ -88,7 +129,17 @@ const Experience = () => {
             </Col>
             <Col sm={3}>
               <Row>
-                <a href="https://bit.ly/bmo_home" target="bmo">
+                <a
+                  href="https://bit.ly/bmo_home"
+                  target="bmo"
+                  onClick={() =>
+                    Event(
+                      'Experience',
+                      'Clicked BMO company link',
+                      'BMO company link',
+                    )
+                  }
+                >
                   <img src={bmoImg} alt="bmo" />
                 </a>
               </Row>
@@ -107,6 +158,13 @@ const Experience = () => {
                 <a
                   href="https://bit.ly/vincentinc_home"
                   target="vincent-associates"
+                  onClick={() =>
+                    Event(
+                      'Experience',
+                      'Clicked Vincent Associates company link',
+                      'Vincent Associates company link',
+                    )
+                  }
                 >
                   <img src={vincentAssociatesImg} alt="vincent-associates" />
                 </a>
