@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
+import { Link } from 'react-scroll';
 import DevIcon from 'devicon-react-svg';
 import { Event } from '../Tracking';
 
@@ -34,7 +35,11 @@ const About = () => {
                     href="http://bit.ly/secret_sean"
                     target="instagram"
                     onClick={() =>
-                      Event('About', 'Clicked Instagram link', 'Instagram link')
+                      Event(
+                        'About Me',
+                        'Clicked Instagram link',
+                        'Instagram link',
+                      )
                     }
                   >
                     <strong>training</strong>
@@ -45,7 +50,7 @@ const About = () => {
                     target="github"
                     onClick={() =>
                       Event(
-                        'About',
+                        'About Me',
                         "Clicked GitHub PR's link",
                         "GitHub PR's link",
                       )
@@ -54,18 +59,22 @@ const About = () => {
                     <strong>OSS community</strong>
                   </a>
                   , and letting my imagination run wild at{' '}
-                  <a
-                    href="#hackathons"
+                  <Link
+                    to="hackathon"
+                    activeClass="active"
+                    spy
+                    smooth
+                    duration={1000}
                     onClick={() =>
                       Event(
-                        'About',
+                        'About Me',
                         'Clicked Hackathons link',
                         'Hackathons link',
                       )
                     }
                   >
-                    <strong>hackathons</strong>
-                  </a>
+                    <strong>Hackathons</strong>
+                  </Link>
                   .
                 </p>
               </Row>

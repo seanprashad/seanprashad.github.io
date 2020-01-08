@@ -32,8 +32,10 @@
       text-align: center;
     }
 
-    a {
+    a,
+    a:not([href]) {
       color: #fff;
+      cursor: pointer;
       text-decoration: underline;
     }
 
