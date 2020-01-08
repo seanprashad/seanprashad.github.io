@@ -112,7 +112,6 @@ const Navigation = () => {
             <NavItem>
               <Link
                 to="hackathon"
-                activeClass="active"
                 spy
                 smooth
                 duration={1000}
