@@ -9,26 +9,30 @@ import OpenSource from './OpenSource/OpenSource';
 import Hackathon from './Hackathon/Hackathon';
 import Contact from './Contact/Contact';
 
-import { initGA, pageView } from './Tracking';
+import { initGA, PageView } from './Tracking';
 
 import './App.scss';
 
-function App() {
-  initGA('UA-92642042-2');
-  pageView();
+class App extends React.Component {
+  componentDidMount() {
+    initGA('UA-92642042-2');
+    PageView();
+  }
 
-  return (
-    <div className="App">
-      <Navigation />
-      <Intro />
-      <About />
-      <Education />
-      <Experience />
-      <OpenSource />
-      <Hackathon />
-      <Contact />
-    </div>
-  );
+  render() {
+    return (
+      <div className="App">
+        <Navigation />
+        <Intro />
+        <About />
+        <Education />
+        <Experience />
+        <OpenSource />
+        <Hackathon />
+        <Contact />
+      </div>
+    );
+  }
 }
 
 export default App;

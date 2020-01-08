@@ -4,7 +4,7 @@ const initGA = trackingID => {
   ReactGA.initialize(trackingID);
 };
 
-const pageView = () => {
+const PageView = () => {
   ReactGA.pageview(window.location.pathname + window.location.search);
 };
 
@@ -16,4 +16,4 @@ const Event = (category, action, label) => {
   });
 };
 
-export { initGA, pageView, Event };
+export { initGA, PageView, Event };
