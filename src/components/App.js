@@ -14,7 +14,7 @@ import { initGA, pageView } from './Tracking';
 import './App.scss';
 
 function App() {
-  initGA('UA-92642042-1');
+  initGA('UA-92642042-2');
   pageView();
 
   return (
