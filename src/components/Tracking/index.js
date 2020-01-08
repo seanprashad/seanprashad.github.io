@@ -1,7 +1,7 @@
 import ReactGA from 'react-ga';
 
-const initGA = trackingID => {
-  ReactGA.initialize(trackingID);
+const initGA = (trackingID, options) => {
+  ReactGA.initialize(trackingID, { ...options });
 };
 
 const PageView = () => {
