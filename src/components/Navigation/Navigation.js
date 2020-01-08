@@ -8,8 +8,8 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
-
 import { Link } from 'react-scroll';
+import { Event } from '../Tracking';
 
 import './Navigation.scss';
 
@@ -28,6 +28,9 @@ const Navigation = () => {
           spy
           smooth
           duration={1000}
+          onClick={() =>
+            Event('Navigation', 'Clicked a nav link', 'Sean Prashad link')
+          }
         >
           Sean Prashad
         </Link>
@@ -35,7 +38,16 @@ const Navigation = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <Link to="about" activeClass="active" spy smooth duration={1000}>
+              <Link
+                to="about"
+                activeClass="active"
+                spy
+                smooth
+                duration={1000}
+                onClick={() =>
+                  Event('Navigation', 'Clicked a nav link', 'About Me link')
+                }
+              >
                 About Me
               </Link>
             </NavItem>
@@ -46,6 +58,9 @@ const Navigation = () => {
                 spy
                 smooth
                 duration={1000}
+                onClick={() =>
+                  Event('Navigation', 'Clicked a nav link', 'Education link')
+                }
               >
                 Education
               </Link>
@@ -57,6 +72,9 @@ const Navigation = () => {
                 spy
                 smooth
                 duration={1000}
+                onClick={() =>
+                  Event('Navigation', 'Clicked a nav link', 'Experience link')
+                }
               >
                 Experience
               </Link>
@@ -68,6 +86,9 @@ const Navigation = () => {
                 spy
                 smooth
                 duration={1000}
+                onClick={() =>
+                  Event('Navigation', 'Clicked a nav link', 'Open Source link')
+                }
               >
                 Open Source
               </Link>
@@ -79,12 +100,21 @@ const Navigation = () => {
                 spy
                 smooth
                 duration={1000}
+                onClick={() =>
+                  Event('Navigation', 'Clicked a nav link', 'Hackathons link')
+                }
               >
                 Hackathons
               </Link>
             </NavItem>
             <NavItem>
-              <NavLink target="_blank" href="https://bit.ly/seanprashad_medium">
+              <NavLink
+                target="_blank"
+                href="https://bit.ly/seanprashad_medium"
+                onClick={() =>
+                  Event('Navigation', 'Clicked a nav link', 'Blog link')
+                }
+              >
                 Blog
               </NavLink>
             </NavItem>
@@ -95,6 +125,9 @@ const Navigation = () => {
                 spy
                 smooth
                 duration={1000}
+                onClick={() =>
+                  Event('Navigation', 'Clicked a nav link', 'Contact link')
+                }
               >
                 Contact
               </Link>
