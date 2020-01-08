@@ -54,7 +54,7 @@ const Contact = () => {
             <Col sm={1}>
               <NavLink
                 target="_blank"
-                href="mailto:S.Prashad@outlook.com"
+                href="mailto:S[dot]Prashad[at]outlook.com"
                 onClick={() =>
                   Event('Contact', 'Clicked a social link', 'Email link')
                 }

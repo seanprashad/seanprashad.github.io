@@ -40,7 +40,7 @@ const Intro = () => {
             </NavLink>
           </Col>
           <Col sm={1}>
-            <NavLink target="_blank" href="mailto:S.Prashad@outlook.com">
+            <NavLink target="_blank" href="mailto:S[dot]Prashad[at]outlook.com">
               <FaEnvelope />
             </NavLink>
           </Col>
