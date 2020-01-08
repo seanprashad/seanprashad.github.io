@@ -9,6 +9,8 @@ import OpenSource from './OpenSource/OpenSource';
 import Hackathon from './Hackathon/Hackathon';
 import Contact from './Contact/Contact';
 
+import './Analytics/Analytics';
+
 import './App.scss';
 
 function App() {
