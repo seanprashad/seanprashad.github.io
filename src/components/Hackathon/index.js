@@ -21,7 +21,7 @@ const Hackathon = () => {
       layers={[
         {
           image: JSON.stringify(backgroundImg),
-          amount: 0.25,
+          amount: 0.2,
         },
       ]}
     >
