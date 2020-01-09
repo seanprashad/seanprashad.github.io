@@ -26,7 +26,7 @@ const Contact = () => {
         <Col>
           <Row>
             <Col>
-              <h2>Let&apos;s get in contact!</h2>
+              <h2>Let&apos;s get in touch!</h2>
             </Col>
           </Row>
           <Col>
