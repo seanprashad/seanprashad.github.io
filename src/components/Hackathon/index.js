@@ -77,7 +77,7 @@ const Hackathon = () => {
             </Col>
           </Col>
         </Col>
-      </Container>{' '}
+      </Container>
     </ParallaxBanner>
   );
 };

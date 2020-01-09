@@ -87,7 +87,7 @@ const OpenSource = () => {
             </Row>
           </Col>
         </Col>
-      </Container>{' '}
+      </Container>
     </ParallaxBanner>
   );
 };
