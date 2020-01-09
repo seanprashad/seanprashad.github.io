@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
     "devicon-react-svg": "^0.2.2",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
