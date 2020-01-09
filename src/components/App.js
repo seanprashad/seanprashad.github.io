@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Navigation from './Navigation/Navigation';
-import Intro from './Intro/Intro';
-import About from './About/About';
-import Education from './Education/Education';
-import Experience from './Experience/Experience';
-import OpenSource from './OpenSource/OpenSource';
-import Hackathon from './Hackathon/Hackathon';
-import Contact from './Contact/Contact';
+import Navigation from './Navigation';
+import Intro from './Intro';
+import About from './About';
+import Education from './Education';
+import Experience from './Experience';
+import OpenSource from './OpenSource';
+import Hackathon from './Hackathon';
+import Contact from './Contact';
 
 import { initGA, PageView } from './Tracking';
 
