@@ -11,7 +11,7 @@ import Contact from './Contact';
 
 import { initGA, PageView } from './Shared/Tracking';
 
-import './App.scss';
+import './styles.scss';
 
 class App extends React.Component {
   componentDidMount() {

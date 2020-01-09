@@ -7,7 +7,7 @@ import backgroundImg from '../../images/backgrounds/education.jpg';
 
 import senecaImg from '../../images/thumbnails/companies/seneca.png';
 
-import './Education.scss';
+import './styles.scss';
 
 const Education = () => {
   return (

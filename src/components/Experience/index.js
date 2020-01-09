@@ -12,7 +12,7 @@ import senecaImg from '../../images/thumbnails/companies/seneca.png';
 import bmoImg from '../../images/thumbnails/companies/bmo.png';
 import vincentAssociatesImg from '../../images/thumbnails/companies/vincent-associates.png';
 
-import './Experience.scss';
+import './styles.scss';
 
 const Experience = () => {
   return (

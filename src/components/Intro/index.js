@@ -7,7 +7,7 @@ import { Event } from '../Shared/Tracking';
 
 import backgroundImg from '../../images/backgrounds/intro.jpg';
 
-import './Intro.scss';
+import './styles.scss';
 
 const Intro = () => {
   return (

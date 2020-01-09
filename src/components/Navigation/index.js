@@ -11,7 +11,7 @@ import {
 import { Link } from 'react-scroll';
 import { Event } from '../Shared/Tracking';
 
-import './Navigation.scss';
+import './styles.scss';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);

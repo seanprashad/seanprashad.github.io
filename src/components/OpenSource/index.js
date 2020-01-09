@@ -9,7 +9,7 @@ import firefoxImg from '../../images/thumbnails/open-source/firefox.png';
 import tensorflowImg from '../../images/thumbnails/open-source/tensorflow.png';
 import railsImg from '../../images/thumbnails/open-source/rails.png';
 
-import './OpenSource.scss';
+import './styles.scss';
 
 const OpenSource = () => {
   return (

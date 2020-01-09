@@ -7,7 +7,7 @@ import { Event } from '../Shared/Tracking';
 
 import backgroundImg from '../../images/backgrounds/contact.jpg';
 
-import './Contact.scss';
+import './styles.scss';
 
 const Contact = () => {
   const currYear = new Date().getFullYear();

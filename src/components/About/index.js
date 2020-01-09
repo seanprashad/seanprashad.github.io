@@ -8,7 +8,7 @@ import { Event } from '../Shared/Tracking';
 import backgroundImg from '../../images/backgrounds/about.jpg';
 import aboutImg from '../../images/about.jpg';
 
-import './About.scss';
+import './styles.scss';
 
 const About = () => {
   return (

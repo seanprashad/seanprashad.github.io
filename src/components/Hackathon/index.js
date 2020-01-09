@@ -12,7 +12,7 @@ import openIDEOImg from '../../images/hackathons/open-ideo.png';
 import gmHackAIImg from '../../images/hackathons/gm-hack-ai.png';
 import osceDaysImg from '../../images/hackathons/osce-days.png';
 
-import './Hackathon.scss';
+import './styles.scss';
 
 const Hackathon = () => {
   return (
