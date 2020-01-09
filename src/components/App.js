@@ -9,7 +9,7 @@ import OpenSource from './OpenSource';
 import Hackathon from './Hackathon';
 import Contact from './Contact';
 
-import { initGA, PageView } from './Tracking';
+import { initGA, PageView } from './Shared/Tracking';
 
 import './App.scss';
 

@@ -1,13 +1,16 @@
 .intro {
   align-items: center;
-  background-image: url(../../images/backgrounds/intro.jpg);
   background-size: cover;
   display: flex;
-  height: 100%;
+  height: 100% !important;
 
   @media (max-width: 768px) {
     padding-top: 500px;
     padding-bottom: 500px;
+  }
+
+  > .col {
+    padding: 150px 0 150px 0;
   }
 
   .row {

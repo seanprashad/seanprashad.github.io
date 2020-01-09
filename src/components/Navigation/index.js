@@ -9,7 +9,7 @@ import {
   NavLink,
 } from 'reactstrap';
 import { Link } from 'react-scroll';
-import { Event } from '../Tracking';
+import { Event } from '../Shared/Tracking';
 
 import './Navigation.scss';
 

@@ -1,5 +1,9 @@
+.contact-parallax {
+  height: auto !important;
+  background-size: cover;
+}
+
 .contact {
-  background-image: url(../../images/backgrounds/contact.jpg);
   background-size: cover;
   display: flex;
 

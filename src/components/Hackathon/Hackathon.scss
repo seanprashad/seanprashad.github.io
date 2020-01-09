@@ -1,5 +1,9 @@
+.hackathon-parallax {
+  height: auto !important;
+  background-size: cover;
+}
+
 .hackathon {
-  background-image: url(../../images/backgrounds/hackathon.jpg);
   background-size: cover;
   display: flex;
 

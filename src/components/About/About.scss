@@ -1,5 +1,9 @@
+.about-parallax {
+  height: auto !important;
+  background-size: cover;
+}
+
 .about {
-  background-image: url(../../images/backgrounds/about.jpg);
   background-size: cover;
   display: flex;
 
