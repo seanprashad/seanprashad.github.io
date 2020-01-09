@@ -21,7 +21,7 @@ const Hackathon = () => {
       layers={[
         {
           image: JSON.stringify(backgroundImg),
-          amount: 0.2,
+          amount: 0.25,
         },
       ]}
     >
@@ -38,9 +38,6 @@ const Hackathon = () => {
                 </h4>
                 <img src={genesysImg} alt="genesys" />
               </Col>
-            </Row>
-
-            <Row>
               <Col sm={2}>
                 <h4>
                   <span className="winna">2nd Place</span> - HackingGood 2017
@@ -51,13 +48,13 @@ const Hackathon = () => {
                 <h4>Mentor & Judge - TOHacks 2018</h4>
                 <img src={tohacksImg} alt="toHacks" />
               </Col>
+            </Row>
+
+            <Row>
               <Col sm={2}>
                 <h4>RBC Next Great Innovator</h4>
                 <img src={rbcNGIImg} alt="rbcNGI" />
               </Col>
-            </Row>
-
-            <Row>
               <Col sm={2}>
                 <h4>OpenIDEO 2017</h4>
                 <img src={openIDEOImg} alt="openIDEO" />
