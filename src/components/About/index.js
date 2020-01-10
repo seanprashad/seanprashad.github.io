@@ -91,12 +91,12 @@ const About = () => {
               </Row>
               <Row>
                 <IconContext.Provider value={{ size: '5em' }}>
-                  <FaJava />
-                  <IoLogoJavascript />
-                  <FaReact />
-                  <FaGithub />
-                  <FaDocker />
-                  <DiMysql />
+                  <FaJava title="Java" />
+                  <IoLogoJavascript title="JavaScript" />
+                  <FaReact title="React" />
+                  <FaGithub title="GitHub" />
+                  <FaDocker title="Docker" />
+                  <DiMysql title="MySql" />
                 </IconContext.Provider>
               </Row>
             </Col>
