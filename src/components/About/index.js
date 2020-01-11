@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import { IconContext } from 'react-icons';
 import { Link } from 'react-scroll';
-import { FaDocker, FaGithub, FaJava, FaReact } from 'react-icons/fa';
+import { FaAws, FaDocker, FaGithub, FaJava, FaReact } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { DiMysql } from 'react-icons/di';
 import { Event } from '../Shared/Tracking';
@@ -95,6 +95,7 @@ const About = () => {
                   <IoLogoJavascript title="JavaScript" />
                   <FaReact title="React" />
                   <FaGithub title="GitHub" />
+                  <FaAws title="Amazon Web Services" />
                   <FaDocker title="Docker" />
                   <DiMysql title="MySql" />
                 </IconContext.Provider>
