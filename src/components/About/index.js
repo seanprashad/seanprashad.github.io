@@ -23,7 +23,9 @@ const About = () => {
             <Col sm={2}>
               <img src={aboutImg} alt="profile" />
             </Col>
-            <Col sm={4}>
+          </Row>
+          <Row>
+            <Col sm={5}>
               <Row>
                 <Row>
                   <p>
@@ -60,9 +62,9 @@ const About = () => {
                         )
                       }
                     >
-                      <strong>OSS community</strong>
-                    </a>
-                    , and letting my imagination run wild at{' '}
+                      <strong>open source</strong>
+                    </a>{' '}
+                    community, and letting my imagination run wild at{' '}
                     <Link
                       to="hackathon"
                       activeClass="active"

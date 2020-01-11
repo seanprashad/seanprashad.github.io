@@ -47,7 +47,7 @@ it('renders the subheader', () => {
       .at(1)
       .html(),
   ).toEqual(
-    '<p>In my spare time, you can usually find me <a href="http://bit.ly/secret_sean" target="instagram"><strong>training</strong></a>, helping in the <a href="http://bit.ly/github_prs" target="github"><strong>OSS community</strong></a>, and letting my imagination run wild at <a><strong>hackathons</strong></a>.</p>',
+    '<p>In my spare time, you can usually find me <a href="http://bit.ly/secret_sean" target="instagram"><strong>training</strong></a>, helping in the <a href="http://bit.ly/github_prs" target="github"><strong>open source</strong></a> community, and letting my imagination run wild at <a><strong>hackathons</strong></a>.</p>',
   );
 
   expect(

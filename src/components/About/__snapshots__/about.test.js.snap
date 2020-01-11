@@ -28,8 +28,12 @@ exports[`matches the snapshot 1`] = `
             src="about.jpg"
           />
         </div>
+      </div>
+      <div
+        className="row"
+      >
         <div
-          className="col-sm-4"
+          className="col-sm-5"
         >
           <div
             className="row"
@@ -78,10 +82,11 @@ exports[`matches the snapshot 1`] = `
                   target="github"
                 >
                   <strong>
-                    OSS community
+                    open source
                   </strong>
                 </a>
-                , and letting my imagination run wild at
+                 
+                community, and letting my imagination run wild at
                  
                 <a
                   onClick={[Function]}
