@@ -17,8 +17,12 @@ const Emoji = props => {
 };
 
 Emoji.propTypes = {
-  label: PropTypes.string.isRequired,
+  label: PropTypes.string,
   symbol: PropTypes.string.isRequired,
+};
+
+Emoji.defaultProps = {
+  label: '',
 };
 
 export default Emoji;
