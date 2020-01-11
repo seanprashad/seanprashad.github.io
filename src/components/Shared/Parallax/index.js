@@ -1,5 +1,5 @@
-import React from 'react';
-import { ParallaxBanner } from 'react-scroll-parallax';
+import React, { useLayoutEffect } from 'react';
+import { ParallaxBanner, useController } from 'react-scroll-parallax';
 import PropTypes from 'prop-types';
 
 const Parallax = props => {
@@ -34,4 +34,16 @@ Parallax.defaultProps = {
   className: '',
 };
 
-export default Parallax;
+const ParallaxCache = () => {
+  const { parallaxController } = useController();
+
+  useLayoutEffect(() => {
+    const handler = () => parallaxController.update();
+    window.addEventListener('load', handler);
+    return () => window.removeEventListener('load', handler);
+  }, [parallaxController]);
+
+  return null;
+};
+
+export { Parallax, ParallaxCache };

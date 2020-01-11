@@ -20,7 +20,7 @@ import hackathonBackground from '../images/backgrounds/hackathon.jpg';
 import contactBackground from '../images/backgrounds/contact.jpg';
 
 // Shared components
-import Parallax from './Shared/Parallax';
+import { Parallax, ParallaxCache } from './Shared/Parallax';
 import { initGA, PageView } from './Shared/Tracking';
 
 import './styles.scss';
@@ -34,6 +34,7 @@ class App extends React.Component {
   render() {
     return (
       <ParallaxProvider>
+        <ParallaxCache />
         <div className="App">
           <Navigation />
 
