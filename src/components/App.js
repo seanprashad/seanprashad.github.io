@@ -1,4 +1,5 @@
 import React from 'react';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 import Navigation from './Navigation';
 import Intro from './Intro';
@@ -32,65 +33,67 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <Navigation />
+      <ParallaxProvider>
+        <div className="App">
+          <Navigation />
 
-        <Parallax
-          amount={0.25}
-          className="intro"
-          image={String(introBackground)}
-        >
-          <Intro />
-        </Parallax>
+          <Parallax
+            amount={0.25}
+            className="intro"
+            image={String(introBackground)}
+          >
+            <Intro />
+          </Parallax>
 
-        <Parallax
-          amount={0.25}
-          className="about-parallax"
-          image={String(aboutBackground)}
-        >
-          <About />
-        </Parallax>
+          <Parallax
+            amount={0.25}
+            className="about-parallax"
+            image={String(aboutBackground)}
+          >
+            <About />
+          </Parallax>
 
-        <Parallax
-          amount={0.25}
-          className="education-parallax"
-          image={String(educationBackground)}
-        >
-          <Education />
-        </Parallax>
+          <Parallax
+            amount={0.25}
+            className="education-parallax"
+            image={String(educationBackground)}
+          >
+            <Education />
+          </Parallax>
 
-        <Parallax
-          amount={0.25}
-          className="experience-parallax"
-          image={String(experienceBackground)}
-        >
-          <Experience />
-        </Parallax>
+          <Parallax
+            amount={0.25}
+            className="experience-parallax"
+            image={String(experienceBackground)}
+          >
+            <Experience />
+          </Parallax>
 
-        <Parallax
-          amount={0.25}
-          className="open-source-parallax"
-          image={String(opensourceBackground)}
-        >
-          <OpenSource />
-        </Parallax>
+          <Parallax
+            amount={0.25}
+            className="open-source-parallax"
+            image={String(opensourceBackground)}
+          >
+            <OpenSource />
+          </Parallax>
 
-        <Parallax
-          amount={0.25}
-          className="hackathon-parallax"
-          image={String(hackathonBackground)}
-        >
-          <Hackathon />
-        </Parallax>
+          <Parallax
+            amount={0.25}
+            className="hackathon-parallax"
+            image={String(hackathonBackground)}
+          >
+            <Hackathon />
+          </Parallax>
 
-        <Parallax
-          amount={0.25}
-          className="contact-parallax"
-          image={String(contactBackground)}
-        >
-          <Contact />
-        </Parallax>
-      </div>
+          <Parallax
+            amount={0.25}
+            className="contact-parallax"
+            image={String(contactBackground)}
+          >
+            <Contact />
+          </Parallax>
+        </div>
+      </ParallaxProvider>
     );
   }
 }
