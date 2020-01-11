@@ -27,7 +27,7 @@ it('renders the headshot image', () => {
   );
 });
 
-it('renders the background text', () => {
+it('renders the subheader', () => {
   const wrapper = shallow(<About />);
 
   expect(wrapper.find('p')).toHaveLength(3);
