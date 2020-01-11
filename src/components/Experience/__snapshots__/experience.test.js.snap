@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div
+  className="experience container-fluid"
+>
+  <div
+    className="col"
+  >
+    <div
+      className="row"
+    >
+      <h2>
+        Experience
+      </h2>
+    </div>
+    <div
+      className="col"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-3"
+        >
+          <div
+            className="row"
+          >
+            <a
+              href="https://bit.ly/pagerduty_home"
+              onClick={[Function]}
+              target="pagerduty"
+            >
+              <img
+                alt="pagerduty"
+                src="pagerduty.png"
+              />
+            </a>
+          </div>
+          <div
+            className="row"
+          >
+            <h3>
+              Software Engineer Intern
+            </h3>
+          </div>
+          <div
+            className="row"
+          >
+            <h4>
+              PagerDuty, Toronto ON
+            </h4>
+          </div>
+          <div
+            className="row"
+          >
+            <p>
+              September 2019 - December 2019
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <div
+            className="row"
+          >
+            <a
+              href="https://bit.ly/wattpad_home"
+              onClick={[Function]}
+              target="wattpad"
+            >
+              <img
+                alt="wattpad"
+                src="wattpad.png"
+              />
+            </a>
+          </div>
+          <div
+            className="row"
+          >
+            <h3>
+              Software Engineer Intern
+            </h3>
+          </div>
+          <div
+            className="row"
+          >
+            <h4>
+              Wattpad, Toronto ON
+            </h4>
+          </div>
+          <div
+            className="row"
+          >
+            <p>
+              January 2019 - April 2019
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <div
+            className="row"
+          >
+            <a
+              href="https://bit.ly/capitalone_home"
+              onClick={[Function]}
+              target="capital-one"
+            >
+              <img
+                alt="capital-one"
+                src="capital-one.png"
+              />
+            </a>
+          </div>
+          <div
+            className="row"
+          >
+            <h3>
+              Software Engineer Intern
+            </h3>
+          </div>
+          <div
+            className="row"
+          >
+            <h4>
+              Capital One, Toronto ON
+            </h4>
+          </div>
+          <div
+            className="row"
+          >
+            <p>
+              May 2018 - August 2018
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-3"
+        >
+          <div
+            className="row"
+          >
+            <a
+              href="https://bit.ly/seneca_home"
+              onClick={[Function]}
+              target="seneca"
+            >
+              <img
+                alt="seneca"
+                src="seneca.png"
+              />
+            </a>
+          </div>
+          <div
+            className="row"
+          >
+            <h3>
+              Tutor
+            </h3>
+          </div>
+          <div
+            className="row"
+          >
+            <h4>
+              Seneca, Toronto ON
+            </h4>
+          </div>
+          <div
+            className="row"
+          >
+            <p>
+              September 2017 - April 2018
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <div
+            className="row"
+          >
+            <a
+              href="https://bit.ly/bmo_home"
+              onClick={[Function]}
+              target="bmo"
+            >
+              <img
+                alt="bmo"
+                src="bmo.png"
+              />
+            </a>
+          </div>
+          <div
+            className="row"
+          >
+            <h3>
+              Software Engineer Intern
+            </h3>
+          </div>
+          <div
+            className="row"
+          >
+            <h4>
+              Bank of Montreal, Toronto ON
+            </h4>
+          </div>
+          <div
+            className="row"
+          >
+            <p>
+              May 2017 - September 2017
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <div
+            className="row"
+          >
+            <a
+              href="https://bit.ly/vincentinc_home"
+              onClick={[Function]}
+              target="vincent-associates"
+            >
+              <img
+                alt="vincent-associates"
+                src="vincent-associates.png"
+              />
+            </a>
+          </div>
+          <div
+            className="row"
+          >
+            <h3>
+              Software Engineer
+            </h3>
+          </div>
+          <div
+            className="row"
+          >
+            <h4>
+              Vincent Associates, Toronto ON
+            </h4>
+          </div>
+          <div
+            className="row"
+          >
+            <p>
+              May 2015 - August 2016
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
