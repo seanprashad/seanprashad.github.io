@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import { IconContext } from 'react-icons';
 import { Link } from 'react-scroll';
+import ReactTooltip from 'react-tooltip';
 import { FaAws, FaDocker, FaGithub, FaJava, FaReact } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { DiMysql } from 'react-icons/di';
@@ -14,6 +15,7 @@ import './styles.scss';
 const About = () => {
   return (
     <Container className="about" fluid>
+      <ReactTooltip place="bottom" />
       <Col>
         <Row>
           <h2>About Me</h2>
@@ -93,13 +95,13 @@ const About = () => {
               </Row>
               <Row>
                 <IconContext.Provider value={{ size: '5em' }}>
-                  <FaJava title="Java" />
-                  <IoLogoJavascript title="JavaScript" />
-                  <FaReact title="React" />
-                  <FaGithub title="GitHub" />
-                  <FaAws title="Amazon Web Services" />
-                  <FaDocker title="Docker" />
-                  <DiMysql title="MySql" />
+                  <FaJava data-tip="Java" />
+                  <IoLogoJavascript data-tip="JavaScript" />
+                  <FaReact data-tip="React" />
+                  <FaGithub data-tip="GitHub" />
+                  <FaAws data-tip="Amazon Web Services" />
+                  <FaDocker data-tip="Docker" />
+                  <DiMysql data-tip="MySQL" />
                 </IconContext.Provider>
               </Row>
             </Col>
