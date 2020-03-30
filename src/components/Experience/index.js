@@ -42,9 +42,6 @@ const Experience = () => {
               <Row>
                 <h4>PagerDuty, Toronto ON</h4>
               </Row>
-              <Row>
-                <p>September 2019 - December 2019</p>
-              </Row>
             </Col>
             <Col sm={3}>
               <Row>
@@ -68,9 +65,6 @@ const Experience = () => {
               <Row>
                 <h4>Wattpad, Toronto ON</h4>
               </Row>
-              <Row>
-                <p>January 2019 - April 2019</p>
-              </Row>
             </Col>
             <Col sm={3}>
               <Row>
@@ -93,9 +87,6 @@ const Experience = () => {
               </Row>
               <Row>
                 <h4>Capital One, Toronto ON</h4>
-              </Row>
-              <Row>
-                <p>May 2018 - August 2018</p>
               </Row>
             </Col>
           </Row>
@@ -123,9 +114,6 @@ const Experience = () => {
               <Row>
                 <h4>Seneca, Toronto ON</h4>
               </Row>
-              <Row>
-                <p>September 2017 - April 2018</p>
-              </Row>
             </Col>
             <Col sm={3}>
               <Row>
@@ -149,9 +137,6 @@ const Experience = () => {
               <Row>
                 <h4>Bank of Montreal, Toronto ON</h4>
               </Row>
-              <Row>
-                <p>May 2017 - September 2017</p>
-              </Row>
             </Col>
             <Col sm={3}>
               <Row>
@@ -174,9 +159,6 @@ const Experience = () => {
               </Row>
               <Row>
                 <h4>Vincent Associates, Toronto ON</h4>
-              </Row>
-              <Row>
-                <p>May 2015 - August 2016</p>
               </Row>
             </Col>
           </Row>
