@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/sprashad
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://seanprashad.com
+  * I am sprashad (https://keybase.io/sprashad) on keybase.
+  * I have a public key with fingerprint E0E0 9C10 00E8 2EFD 53F7  BE39 F8AD 3D8B D07E 24F8
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01018feb95fd3d6661ea61bc1b6c70bdc8eebe25b46b1a7f51769f6cb686c3a05de20a",
+      "fingerprint": "e0e09c1000e82efd53f7be39f8ad3d8bd07e24f8",
+      "host": "keybase.io",
+      "key_id": "f8ad3d8bd07e24f8",
+      "kid": "01018feb95fd3d6661ea61bc1b6c70bdc8eebe25b46b1a7f51769f6cb686c3a05de20a",
+      "uid": "c0c5d99fe569be5ac9d06895a6376e19",
+      "username": "sprashad"
+    },
+    "service": {
+      "hostname": "seanprashad.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1585687808,
+  "expire_in": 157680000,
+  "prev": "3b7f67bdc09d3fa2f801b893b48a25a81453ca8c33e4871e3566571b9fb31c14",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkn9QFGUYx+/4JZogB2JEpLDoTDoXs3t7++suHJycSBqgiQGRgGvf3XePPeH2
+2Dt+eZ6OBBI6gBMmjFTI6OSAYeSvKRExS0EMS8PU1AFHTIyCCkggwXYZ+a8/++ud
+93k/3+/zPN959wR4a/y1k62xu3/YtnJSe/kR0GS/17rAjQCJL0FMbmQznDtgLg+d
+LstmkUdMCIqhGC1AwBACj/MkSWKQJTHAYYDkKBTwHA0hgAYCGEmAsZRAYBTJCCQH
+SJrkcBYleGhAWUSPCKLdCmWHLNpdii1EIcpwGIqikDZAgSdwgQIQZwSaVdrQgEcp
+aDAKtCLMkZyqQhkOsE4YI0pKTblY5sb7D/5/nrtgzo5DOYJnGAESJAMgwXIMj5I0
+Q7AkTpEQY1TQCWU7mwcV2umQWWcOyyMePaJUC0UOqsGqm8wTkLU/g2I4KU+RO2TJ
+JXFSrvKY43I5nCZV7CpxqHQRBJZnPhYg2nklSkVRCGWnKNkRE6aQnEtUjTGCJkia
+olFaj8BihyhDi6gSBEXSStio2gcWKpY4oIRMklKCQBkeF1iDQKMYoBkcGGnWQLA0
+ZiRwjqU5HIdGmsIgTpAkQWGAEQCOcZgRUVfLt0uIyaC4ulirupVotbOuAhkinkWV
+XriPRuuveWlZlM/AwEdBmqGYmZTHZ5n5/+frpX4+zaKFQfOVk7YlT1NWr8guT/Rq
+McN9fz1c/IL8fHuCLjPmVHL5fUfTb9rIsHcf6FLqbwXYJkISttRG1qXYL7WM7Npa
+/9g/tbDAKtX27W/Orgk60H8kMSmIjjePeHX9Hrfz5t7bRe3+02NRocygp7ioOv9q
+/G1UM7Xuzqh9471D3Ndl0j9IV97iiKg9vceW+lDd3yU9ibsZ8PLhDeknkEYhIyl/
+5bB9tFS0HDyf++eLjyrS6vyMhomOsB1NM3k3vgk+N/hz9S1H1ZSucTZzojNQ322r
+cPtNf9LtX156uuHz0lWOSj78zrG6yJq2iOtHj6zu/eB9d82TtpqtAwda3wjI9Zx+
+9ULg4ZZ7J5Mv1L4T0mi0lnvShy4+3T+Tey76y8TLKyr8dl1/6KvvhH/8VLX8VOBd
+MbYhgyDfHNsd+/GhCnPslbi3kiqXSMeF9bqs8a7WLCH5sy2hxVW27e6/m1o+7es5
+sUEfvsn8YYAj56o7nxvH6i/Va9rPfDXdgV5Z1by9OmI2PUy7b2j93mHqomnNg3hr
+RKdWJ3tk21AwViKH+t4YPbvzudcrFqBr1xVUn2koWz74yzjzvY/7/GzCZImubTiS
+6MjA3q5bds2UWbzR9Gtt1VFNdDAz412USafe7+td+Ep6Vtemth9DlkaHjZSnlfSM
+mW3e/eFla6/1f3F8VNzWHDr57VhP6uTU3R3A4vPamoNJaf8C
+=Fx23
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sprashad
+
+==================================================================
