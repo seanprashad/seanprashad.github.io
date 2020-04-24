@@ -33,7 +33,7 @@ const About = () => {
                   <p>
                     Hey! I&apos;m <strong>Sean</strong>, a{' '}
                     <strong>Software Development</strong> and{' '}
-                    <strong>Computer Engineering</strong> graduate from Seneca.
+                    <strong>Computer Engineering</strong> new grad.
                   </p>
                 </Row>
                 <Row>
