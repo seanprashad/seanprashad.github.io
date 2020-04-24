@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a78c354e.chunk.css",
-    "main.js": "/static/js/main.110c4820.chunk.js",
-    "main.js.map": "/static/js/main.110c4820.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a36d2be5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a36d2be5.js.map",
-    "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
-    "static/js/2.71630d88.chunk.js": "/static/js/2.71630d88.chunk.js",
-    "static/js/2.71630d88.chunk.js.map": "/static/js/2.71630d88.chunk.js.map",
+    "main.js": "/static/js/main.e084632d.chunk.js",
+    "main.js.map": "/static/js/main.e084632d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0c82f2cf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0c82f2cf.js.map",
+    "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
+    "static/js/2.d33cdc59.chunk.js": "/static/js/2.d33cdc59.chunk.js",
+    "static/js/2.d33cdc59.chunk.js.map": "/static/js/2.d33cdc59.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3e51e8570c53ab3480a782ac4e8f6b0a.js": "/precache-manifest.3e51e8570c53ab3480a782ac4e8f6b0a.js",
+    "precache-manifest.cd29b53c8120cbd86d38c9e84637d5fb.js": "/precache-manifest.cd29b53c8120cbd86d38c9e84637d5fb.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
+    "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
     "static/css/main.a78c354e.chunk.css.map": "/static/css/main.a78c354e.chunk.css.map",
-    "static/js/2.71630d88.chunk.js.LICENSE.txt": "/static/js/2.71630d88.chunk.js.LICENSE.txt",
+    "static/js/2.d33cdc59.chunk.js.LICENSE.txt": "/static/js/2.d33cdc59.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "/static/media/about.c250321c.jpg",
     "static/media/contact.jpg": "/static/media/contact.c9999eae.jpg",
     "static/media/education.jpg": "/static/media/education.b74bc4fb.jpg",
@@ -32,10 +32,10 @@
     "static/media/tohacks.png": "/static/media/tohacks.7ec3ae64.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a36d2be5.js",
-    "static/css/2.de424728.chunk.css",
-    "static/js/2.71630d88.chunk.js",
+    "static/js/runtime-main.0c82f2cf.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.d33cdc59.chunk.js",
     "static/css/main.a78c354e.chunk.css",
-    "static/js/main.110c4820.chunk.js"
+    "static/js/main.e084632d.chunk.js"
   ]
 }
