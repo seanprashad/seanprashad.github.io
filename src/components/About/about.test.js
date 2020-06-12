@@ -38,7 +38,7 @@ it('renders the subheader', () => {
       .at(0)
       .html(),
   ).toEqual(
-    '<p>Hey! I&#x27;m <strong>Sean</strong>, a <strong>Software Development</strong> and <strong>Computer Engineering</strong> new grad.</p>',
+    '<p>Hey! I&#x27;m Sean, a Software Development and Computer Engineering new grad. I&#x27;m currently working at TunnelBear as a Site Reliability Engineer!</p>',
   );
 
   expect(
@@ -56,7 +56,7 @@ it('renders the subheader', () => {
       .at(2)
       .html(),
   ).toEqual(
-    '<p>I&#x27;m always tinkering with new technologies but here are some of the past ones that I&#x27;ve worked with:</p>',
+    '<p>I&#x27;m always tinkering with new technologies but in the past I&#x27;ve worked with:</p>',
   );
 });
 

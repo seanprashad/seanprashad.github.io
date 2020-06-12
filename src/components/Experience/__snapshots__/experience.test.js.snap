@@ -27,6 +27,42 @@ exports[`matches the snapshot 1`] = `
             className="row"
           >
             <a
+              href="https://bit.ly/tunnelbear_home"
+              onClick={[Function]}
+              target="tunnelbear"
+            >
+              <img
+                alt="tunnelbear"
+                src="tunnelbear.png"
+              />
+            </a>
+          </div>
+          <div
+            className="row"
+          >
+            <h3>
+              Site Reliability Engineer
+            </h3>
+          </div>
+          <div
+            className="row"
+          >
+            <h4>
+              TunnelBear, Toronto ON
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-3"
+        >
+          <div
+            className="row"
+          >
+            <a
               href="https://bit.ly/pagerduty_home"
               onClick={[Function]}
               target="pagerduty"
@@ -84,6 +120,10 @@ exports[`matches the snapshot 1`] = `
             </h4>
           </div>
         </div>
+      </div>
+      <div
+        className="row"
+      >
         <div
           className="col-sm-3"
         >
@@ -113,42 +153,6 @@ exports[`matches the snapshot 1`] = `
           >
             <h4>
               Capital One, Toronto ON
-            </h4>
-          </div>
-        </div>
-      </div>
-      <div
-        className="row"
-      >
-        <div
-          className="col-sm-3"
-        >
-          <div
-            className="row"
-          >
-            <a
-              href="https://bit.ly/seneca_home"
-              onClick={[Function]}
-              target="seneca"
-            >
-              <img
-                alt="seneca"
-                src="seneca.png"
-              />
-            </a>
-          </div>
-          <div
-            className="row"
-          >
-            <h3>
-              Tutor
-            </h3>
-          </div>
-          <div
-            className="row"
-          >
-            <h4>
-              Seneca, Toronto ON
             </h4>
           </div>
         </div>

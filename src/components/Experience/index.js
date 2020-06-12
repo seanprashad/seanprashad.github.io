@@ -2,10 +2,10 @@ import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import { Event } from '../Shared/Tracking';
 
+import tunnelbearImg from '../../images/thumbnails/companies/tunnelbear.png';
 import pagerdutyImg from '../../images/thumbnails/companies/pagerduty.png';
 import wattpadImg from '../../images/thumbnails/companies/wattpad.png';
 import capitalOneImg from '../../images/thumbnails/companies/capital-one.png';
-import senecaImg from '../../images/thumbnails/companies/seneca.png';
 import bmoImg from '../../images/thumbnails/companies/bmo.png';
 import vincentAssociatesImg from '../../images/thumbnails/companies/vincent-associates.png';
 
@@ -19,6 +19,32 @@ const Experience = () => {
           <h2>Experience</h2>
         </Row>
         <Col>
+          <Row>
+            <Col sm={3}>
+              <Row>
+                <a
+                  href="https://bit.ly/tunnelbear_home"
+                  target="tunnelbear"
+                  onClick={() =>
+                    Event(
+                      'Experience',
+                      'Clicked TunnelBear company link',
+                      'TunnelBear company link',
+                    )
+                  }
+                >
+                  <img src={tunnelbearImg} alt="tunnelbear" />
+                </a>
+              </Row>
+              <Row>
+                <h3>Site Reliability Engineer</h3>
+              </Row>
+              <Row>
+                <h4>TunnelBear, Toronto ON</h4>
+              </Row>
+            </Col>
+          </Row>
+
           <Row>
             <Col sm={3}>
               <Row>
@@ -66,6 +92,9 @@ const Experience = () => {
                 <h4>Wattpad, Toronto ON</h4>
               </Row>
             </Col>
+          </Row>
+
+          <Row>
             <Col sm={3}>
               <Row>
                 <a
@@ -87,32 +116,6 @@ const Experience = () => {
               </Row>
               <Row>
                 <h4>Capital One, Toronto ON</h4>
-              </Row>
-            </Col>
-          </Row>
-
-          <Row>
-            <Col sm={3}>
-              <Row>
-                <a
-                  href="https://bit.ly/seneca_home"
-                  target="seneca"
-                  onClick={() =>
-                    Event(
-                      'Experience',
-                      'Clicked Seneca company link',
-                      'Seneca company link',
-                    )
-                  }
-                >
-                  <img src={senecaImg} alt="seneca" />
-                </a>
-              </Row>
-              <Row>
-                <h3>Tutor</h3>
-              </Row>
-              <Row>
-                <h4>Seneca, Toronto ON</h4>
               </Row>
             </Col>
             <Col sm={3}>

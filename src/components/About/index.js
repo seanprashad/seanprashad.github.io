@@ -31,9 +31,9 @@ const About = () => {
               <Row>
                 <Row>
                   <p>
-                    Hey! I&apos;m <strong>Sean</strong>, a{' '}
-                    <strong>Software Development</strong> and{' '}
-                    <strong>Computer Engineering</strong> new grad.
+                    Hey! I&apos;m Sean, a Software Development and Computer
+                    Engineering new grad. I&apos;m currently working at
+                    TunnelBear as a Site Reliability Engineer!
                   </p>
                 </Row>
                 <Row>
@@ -88,8 +88,8 @@ const About = () => {
                 </Row>
                 <Row>
                   <p>
-                    I&apos;m always tinkering with new technologies but here are
-                    some of the past ones that I&apos;ve worked with:
+                    I&apos;m always tinkering with new technologies but in the
+                    past I&apos;ve worked with:
                   </p>
                 </Row>
               </Row>

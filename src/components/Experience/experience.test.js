@@ -19,13 +19,26 @@ it('renders the main header', () => {
   expect(wrapper.find('h2').html()).toEqual('<h2>Experience</h2>');
 });
 
-it('renders details for PagerDuty', () => {
+it('renders details for TunnelBear', () => {
   const wrapper = shallow(<Experience />);
 
   expect(
     wrapper
       .find('Col>Row>Col')
       .at(0)
+      .html(),
+  ).toEqual(
+    '<div class="col-sm-3"><div class="row"><a href="https://bit.ly/tunnelbear_home" target="tunnelbear"><img src="tunnelbear.png" alt="tunnelbear"/></a></div><div class="row"><h3>Site Reliability Engineer</h3></div><div class="row"><h4>TunnelBear, Toronto ON</h4></div></div>',
+  );
+});
+
+it('renders details for PagerDuty', () => {
+  const wrapper = shallow(<Experience />);
+
+  expect(
+    wrapper
+      .find('Col>Row>Col')
+      .at(1)
       .html(),
   ).toEqual(
     '<div class="col-sm-3"><div class="row"><a href="https://bit.ly/pagerduty_home" target="pagerduty"><img src="pagerduty.png" alt="pagerduty"/></a></div><div class="row"><h3>Software Engineer Intern</h3></div><div class="row"><h4>PagerDuty, Toronto ON</h4></div></div>',
@@ -38,7 +51,7 @@ it('renders details for Wattpad', () => {
   expect(
     wrapper
       .find('Col>Row>Col')
-      .at(1)
+      .at(2)
       .html(),
   ).toEqual(
     '<div class="col-sm-3"><div class="row"><a href="https://bit.ly/wattpad_home" target="wattpad"><img src="wattpad.png" alt="wattpad"/></a></div><div class="row"><h3>Software Engineer Intern</h3></div><div class="row"><h4>Wattpad, Toronto ON</h4></div></div>',
@@ -51,23 +64,10 @@ it('renders details for Capital One', () => {
   expect(
     wrapper
       .find('Col>Row>Col')
-      .at(2)
-      .html(),
-  ).toEqual(
-    '<div class="col-sm-3"><div class="row"><a href="https://bit.ly/capitalone_home" target="capital-one"><img src="capital-one.png" alt="capital-one"/></a></div><div class="row"><h3>Software Engineer Intern</h3></div><div class="row"><h4>Capital One, Toronto ON</h4></div></div>',
-  );
-});
-
-it('renders details for Seneca', () => {
-  const wrapper = shallow(<Experience />);
-
-  expect(
-    wrapper
-      .find('Col>Row>Col')
       .at(3)
       .html(),
   ).toEqual(
-    '<div class="col-sm-3"><div class="row"><a href="https://bit.ly/seneca_home" target="seneca"><img src="seneca.png" alt="seneca"/></a></div><div class="row"><h3>Tutor</h3></div><div class="row"><h4>Seneca, Toronto ON</h4></div></div>',
+    '<div class="col-sm-3"><div class="row"><a href="https://bit.ly/capitalone_home" target="capital-one"><img src="capital-one.png" alt="capital-one"/></a></div><div class="row"><h3>Software Engineer Intern</h3></div><div class="row"><h4>Capital One, Toronto ON</h4></div></div>',
   );
 });
 
