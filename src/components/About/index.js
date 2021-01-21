@@ -33,7 +33,7 @@ const About = () => {
                   <p>
                     Hey! I&apos;m Sean, a Software Development and Computer
                     Engineering new grad. I&apos;m currently working at
-                    TunnelBear as a Site Reliability Engineer!
+                    TunnelBear as a Software Engineer!
                   </p>
                 </Row>
                 <Row>
