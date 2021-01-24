@@ -37,7 +37,7 @@ const Experience = () => {
                 </a>
               </Row>
               <Row>
-                <h3>Software Engineer</h3>
+                <h3>Site Reliability Engineer</h3>
               </Row>
               <Row>
                 <h4>TunnelBear, Toronto ON</h4>
