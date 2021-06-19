@@ -45,7 +45,7 @@ exports[`matches the snapshot 1`] = `
             >
               2nd Place
             </span>
-             - HackingGood 2017
+             - HackingGood
           </h4>
           <img
             alt="hackingGood"
@@ -56,7 +56,7 @@ exports[`matches the snapshot 1`] = `
           className="col-sm-2"
         >
           <h4>
-            Mentor & Judge - TOHacks 2018
+            Mentor & Judge - TOHacks
           </h4>
           <img
             alt="toHacks"
@@ -82,7 +82,7 @@ exports[`matches the snapshot 1`] = `
           className="col-sm-2"
         >
           <h4>
-            OpenIDEO 2017
+            OpenIDEO
           </h4>
           <img
             alt="openIDEO"
@@ -109,7 +109,7 @@ exports[`matches the snapshot 1`] = `
             >
               3rd Place
             </span>
-             - OSCE Days 2017
+             - OSCE Days
           </h4>
           <img
             alt="osceDays"

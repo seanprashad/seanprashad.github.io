@@ -2,12 +2,13 @@ import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import { Event } from '../Shared/Tracking';
 
+import twitterImg from '../../images/thumbnails/companies/twitter.png';
 import tunnelbearImg from '../../images/thumbnails/companies/tunnelbear.png';
 import pagerdutyImg from '../../images/thumbnails/companies/pagerduty.png';
 import wattpadImg from '../../images/thumbnails/companies/wattpad.png';
 import capitalOneImg from '../../images/thumbnails/companies/capital-one.png';
 import bmoImg from '../../images/thumbnails/companies/bmo.png';
-import vincentAssociatesImg from '../../images/thumbnails/companies/vincent-associates.png';
+// import vincentAssociatesImg from '../../images/thumbnails/companies/vincent-associates.png';
 
 import './styles.scss';
 
@@ -19,6 +20,32 @@ const Experience = () => {
           <h2>Experience</h2>
         </Row>
         <Col>
+          <Row>
+            <Col sm={3}>
+              <Row>
+                <a
+                  href="https://bit.ly/twitter_home"
+                  target="twitter"
+                  onClick={() =>
+                    Event(
+                      'Experience',
+                      'Clicked Twitter company link',
+                      'Twitter company link',
+                    )
+                  }
+                >
+                  <img src={twitterImg} alt="twitter" />
+                </a>
+              </Row>
+              <Row>
+                <h3>Site Reliability Engineer</h3>
+              </Row>
+              <Row>
+                <h4>Twitter</h4>
+              </Row>
+            </Col>
+          </Row>
+
           <Row>
             <Col sm={3}>
               <Row>
@@ -40,12 +67,9 @@ const Experience = () => {
                 <h3>Site Reliability Engineer</h3>
               </Row>
               <Row>
-                <h4>TunnelBear, Toronto ON</h4>
+                <h4>TunnelBear</h4>
               </Row>
             </Col>
-          </Row>
-
-          <Row>
             <Col sm={3}>
               <Row>
                 <a
@@ -66,9 +90,12 @@ const Experience = () => {
                 <h3>Software Engineer Intern</h3>
               </Row>
               <Row>
-                <h4>PagerDuty, Toronto ON</h4>
+                <h4>PagerDuty</h4>
               </Row>
             </Col>
+          </Row>
+
+          <Row>
             <Col sm={3}>
               <Row>
                 <a
@@ -89,12 +116,9 @@ const Experience = () => {
                 <h3>Software Engineer Intern</h3>
               </Row>
               <Row>
-                <h4>Wattpad, Toronto ON</h4>
+                <h4>Wattpad</h4>
               </Row>
             </Col>
-          </Row>
-
-          <Row>
             <Col sm={3}>
               <Row>
                 <a
@@ -115,7 +139,7 @@ const Experience = () => {
                 <h3>Software Engineer Intern</h3>
               </Row>
               <Row>
-                <h4>Capital One, Toronto ON</h4>
+                <h4>Capital One</h4>
               </Row>
             </Col>
             <Col sm={3}>
@@ -138,10 +162,10 @@ const Experience = () => {
                 <h3>Software Engineer Intern</h3>
               </Row>
               <Row>
-                <h4>Bank of Montreal, Toronto ON</h4>
+                <h4>Bank of Montreal</h4>
               </Row>
             </Col>
-            <Col sm={3}>
+            {/* <Col sm={3}>
               <Row>
                 <a
                   href="https://bit.ly/vincentinc_home"
@@ -161,9 +185,9 @@ const Experience = () => {
                 <h3>Software Engineer</h3>
               </Row>
               <Row>
-                <h4>Vincent Associates, Toronto ON</h4>
+                <h4>Vincent Associates</h4>
               </Row>
-            </Col>
+            </Col> */}
           </Row>
         </Col>
       </Col>

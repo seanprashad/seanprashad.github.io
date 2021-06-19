@@ -41,7 +41,7 @@ it('renders an image for HackingGood', () => {
       .at(1)
       .html(),
   ).toEqual(
-    '<div class="col-sm-2"><h4><span class="winna">2nd Place</span> - HackingGood 2017</h4><img src="hacking-good.png" alt="hackingGood"/></div>',
+    '<div class="col-sm-2"><h4><span class="winna">2nd Place</span> - HackingGood</h4><img src="hacking-good.png" alt="hackingGood"/></div>',
   );
 });
 
@@ -54,7 +54,7 @@ it('renders an image for TOHacks', () => {
       .at(2)
       .html(),
   ).toEqual(
-    '<div class="col-sm-2"><h4>Mentor &amp; Judge - TOHacks 2018</h4><img src="tohacks.png" alt="toHacks"/></div>',
+    '<div class="col-sm-2"><h4>Mentor &amp; Judge - TOHacks</h4><img src="tohacks.png" alt="toHacks"/></div>',
   );
 });
 
@@ -80,7 +80,7 @@ it('renders an image for OpenIDEO', () => {
       .at(4)
       .html(),
   ).toEqual(
-    '<div class="col-sm-2"><h4>OpenIDEO 2017</h4><img src="open-ideo.png" alt="openIDEO"/></div>',
+    '<div class="col-sm-2"><h4>OpenIDEO</h4><img src="open-ideo.png" alt="openIDEO"/></div>',
   );
 });
 
@@ -106,6 +106,6 @@ it('renders an image for OSCE Days', () => {
       .at(6)
       .html(),
   ).toEqual(
-    '<div class="col-sm-2"><h4><span class="winna">3rd Place</span> - OSCE Days 2017</h4><img src="osce-days.png" alt="osceDays"/></div>',
+    '<div class="col-sm-2"><h4><span class="winna">3rd Place</span> - OSCE Days</h4><img src="osce-days.png" alt="osceDays"/></div>',
   );
 });

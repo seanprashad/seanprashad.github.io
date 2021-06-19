@@ -28,12 +28,12 @@ const Hackathon = () => {
             </Col>
             <Col sm={2}>
               <h4>
-                <span className="winna">2nd Place</span> - HackingGood 2017
+                <span className="winna">2nd Place</span> - HackingGood
               </h4>
               <img src={hackingGoodImg} alt="hackingGood" />
             </Col>
             <Col sm={2}>
-              <h4>Mentor & Judge - TOHacks 2018</h4>
+              <h4>Mentor & Judge - TOHacks</h4>
               <img src={tohacksImg} alt="toHacks" />
             </Col>
           </Row>
@@ -44,7 +44,7 @@ const Hackathon = () => {
               <img src={rbcNGIImg} alt="rbcNGI" />
             </Col>
             <Col sm={2}>
-              <h4>OpenIDEO 2017</h4>
+              <h4>OpenIDEO</h4>
               <img src={openIDEOImg} alt="openIDEO" />
             </Col>
             <Col sm={2}>
@@ -53,7 +53,7 @@ const Hackathon = () => {
             </Col>
             <Col sm={2}>
               <h4>
-                <span className="winna">3rd Place</span> - OSCE Days 2017
+                <span className="winna">3rd Place</span> - OSCE Days
               </h4>
               <img src={osceDaysImg} alt="osceDays" />
             </Col>
