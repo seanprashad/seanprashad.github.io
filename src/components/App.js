@@ -27,7 +27,7 @@ import './styles.scss';
 
 class App extends React.Component {
   componentDidMount() {
-    initGA('UA-92642042-1', { debug: false });
+    initGA('UA-203108441-1', { debug: false });
     PageView();
   }
 
