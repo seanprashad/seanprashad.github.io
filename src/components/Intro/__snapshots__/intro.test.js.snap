@@ -21,41 +21,6 @@ exports[`matches the snapshot 1`] = `
       </h1>
     </div>
     <div
-      className="row"
-    >
-      <p>
-        Programming 
-        <span
-          aria-hidden="false"
-          aria-label="programming"
-          className="emoji"
-          role="img"
-        >
-          👨🏽‍💻
-        </span>
-        , Powerlifting
-         
-        <span
-          aria-hidden="false"
-          aria-label="powerlifting"
-          className="emoji"
-          role="img"
-        >
-          🏋🏽‍♂️
-        </span>
-         && Pizza
-         
-        <span
-          aria-hidden="false"
-          aria-label="pizza"
-          className="emoji"
-          role="img"
-        >
-          🍕
-        </span>
-      </p>
-    </div>
-    <div
       className="social row"
     >
       <div

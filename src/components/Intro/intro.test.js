@@ -21,14 +21,6 @@ it('renders the main header', () => {
   );
 });
 
-it('renders the subheader', () => {
-  const wrapper = shallow(<Intro />);
-
-  expect(wrapper.find('p').html()).toEqual(
-    '<p>Programming <span class="emoji" role="img" aria-label="programming" aria-hidden="false">👨🏽‍💻</span>, Powerlifting <span class="emoji" role="img" aria-label="powerlifting" aria-hidden="false">🏋🏽‍♂️</span> &amp;&amp; Pizza <span class="emoji" role="img" aria-label="pizza" aria-hidden="false">🍕</span></p>',
-  );
-});
-
 it('renders the GitHub icon', () => {
   const wrapper = shallow(<Intro />);
 

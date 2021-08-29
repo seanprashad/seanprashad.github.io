@@ -17,14 +17,6 @@ const Intro = () => {
           </h1>
         </Row>
 
-        <Row>
-          <p>
-            Programming <Emoji label="programming" symbol="👨🏽‍💻" />, Powerlifting{' '}
-            <Emoji label="powerlifting" symbol="🏋🏽‍♂️" /> && Pizza{' '}
-            <Emoji label="pizza" symbol="🍕" />
-          </p>
-        </Row>
-
         <Row className="social">
           <Col sm={1}>
             <NavLink
