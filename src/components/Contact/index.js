@@ -12,11 +12,6 @@ const Contact = () => {
   return (
     <Container className="contact" fluid>
       <Col>
-        <Row>
-          <Col>
-            <h2>Let&apos;s get in touch!</h2>
-          </Col>
-        </Row>
         <Col>
           <Row className="social">
             <Col sm={1}>

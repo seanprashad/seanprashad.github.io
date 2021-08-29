@@ -13,14 +13,6 @@ it('renders the Contact component without crashing', () => {
   shallow(<Contact />);
 });
 
-it('renders the main header', () => {
-  const wrapper = shallow(<Contact />);
-
-  expect(wrapper.find('h2').html()).toEqual(
-    '<h2>Let&#x27;s get in touch!</h2>',
-  );
-});
-
 it('renders the GitHub icon', () => {
   const wrapper = shallow(<Contact />);
 
