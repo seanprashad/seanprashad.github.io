@@ -28,7 +28,7 @@ it('renders details for Twitter', () => {
       .at(0)
       .html(),
   ).toEqual(
-    '<div class="col-sm-3"><div class="row"><a href="https://bit.ly/twitter_home" target="twitter"><img src="twitter.png" alt="twitter"/></a></div><div class="row"><h3>Site Reliability Engineer</h3></div><div class="row"><h4>Twitter</h4></div></div>',
+    '<div class="col-sm-3"><div class="row"><a href="https://bit.ly/twitter_home" target="twitter"><img src="twitter.png" alt="twitter"/></a></div><div class="row"><h3>Software Engineer</h3></div><div class="row"><h4>Twitter</h4></div></div>',
   );
 });
 
@@ -41,7 +41,7 @@ it('renders details for TunnelBear', () => {
       .at(1)
       .html(),
   ).toEqual(
-    '<div class="col-sm-3"><div class="row"><a href="https://bit.ly/tunnelbear_home" target="tunnelbear"><img src="tunnelbear.png" alt="tunnelbear"/></a></div><div class="row"><h3>Site Reliability Engineer</h3></div><div class="row"><h4>TunnelBear</h4></div></div>',
+    '<div class="col-sm-3"><div class="row"><a href="https://bit.ly/tunnelbear_home" target="tunnelbear"><img src="tunnelbear.png" alt="tunnelbear"/></a></div><div class="row"><h3>Software Engineer</h3></div><div class="row"><h4>TunnelBear</h4></div></div>',
   );
 });
 

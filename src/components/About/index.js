@@ -30,9 +30,7 @@ const About = () => {
             <Col sm={5}>
               <Row>
                 <Row>
-                  <p>
-                    Hey! I&apos;m Sean, a Site Reliability Engineer at Twitter!
-                  </p>
+                  <p>Hey! I&apos;m Sean, a Software Engineer at Twitter!</p>
                 </Row>
                 <Row>
                   <p>
