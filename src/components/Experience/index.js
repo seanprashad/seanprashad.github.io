@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import { Event } from '../Shared/Tracking';
 
+import squareImg from '../../images/thumbnails/companies/square.png';
 import twitterImg from '../../images/thumbnails/companies/twitter.png';
 import tunnelbearImg from '../../images/thumbnails/companies/tunnelbear.png';
 import pagerdutyImg from '../../images/thumbnails/companies/pagerduty.png';
@@ -24,6 +25,32 @@ const Experience = () => {
             <Col sm={3}>
               <Row>
                 <a
+                  href="https://squ.re/3DxM7U2"
+                  target="square"
+                  onClick={() =>
+                    Event(
+                      'Experience',
+                      'Clicked Square company link',
+                      'Square company link',
+                    )
+                  }
+                >
+                  <img src={squareImg} alt="square" />
+                </a>
+              </Row>
+              <Row>
+                <h3>Software Engineer</h3>
+              </Row>
+              <Row>
+                <h4>Square</h4>
+              </Row>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col sm={3}>
+              <Row>
+                <a
                   href="https://bit.ly/twitter_home"
                   target="twitter"
                   onClick={() =>
@@ -38,15 +65,12 @@ const Experience = () => {
                 </a>
               </Row>
               <Row>
-                <h3>Software Engineer</h3>
+                <h3>Site Reliability Engineer II</h3>
               </Row>
               <Row>
                 <h4>Twitter</h4>
               </Row>
             </Col>
-          </Row>
-
-          <Row>
             <Col sm={3}>
               <Row>
                 <a
@@ -64,7 +88,7 @@ const Experience = () => {
                 </a>
               </Row>
               <Row>
-                <h3>Software Engineer</h3>
+                <h3>Site Reliability Engineer</h3>
               </Row>
               <Row>
                 <h4>TunnelBear</h4>

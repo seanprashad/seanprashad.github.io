@@ -37,7 +37,7 @@ it('renders the subheader', () => {
       .find('p')
       .at(0)
       .html(),
-  ).toEqual('<p>Hey! I&#x27;m Sean, a Software Engineer at Twitter!</p>');
+  ).toEqual('<p>Hey! I&#x27;m Sean, a Software Engineer at Square!</p>');
 
   expect(
     wrapper

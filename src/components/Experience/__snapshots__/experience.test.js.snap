@@ -27,13 +27,13 @@ exports[`matches the snapshot 1`] = `
             className="row"
           >
             <a
-              href="https://bit.ly/twitter_home"
+              href="https://squ.re/3DxM7U2"
               onClick={[Function]}
-              target="twitter"
+              target="square"
             >
               <img
-                alt="twitter"
-                src="twitter.png"
+                alt="square"
+                src="square.png"
               />
             </a>
           </div>
@@ -48,7 +48,7 @@ exports[`matches the snapshot 1`] = `
             className="row"
           >
             <h4>
-              Twitter
+              Square
             </h4>
           </div>
         </div>
@@ -56,6 +56,38 @@ exports[`matches the snapshot 1`] = `
       <div
         className="row"
       >
+        <div
+          className="col-sm-3"
+        >
+          <div
+            className="row"
+          >
+            <a
+              href="https://bit.ly/twitter_home"
+              onClick={[Function]}
+              target="twitter"
+            >
+              <img
+                alt="twitter"
+                src="twitter.png"
+              />
+            </a>
+          </div>
+          <div
+            className="row"
+          >
+            <h3>
+              Site Reliability Engineer II
+            </h3>
+          </div>
+          <div
+            className="row"
+          >
+            <h4>
+              Twitter
+            </h4>
+          </div>
+        </div>
         <div
           className="col-sm-3"
         >
@@ -77,7 +109,7 @@ exports[`matches the snapshot 1`] = `
             className="row"
           >
             <h3>
-              Software Engineer
+              Site Reliability Engineer
             </h3>
           </div>
           <div
