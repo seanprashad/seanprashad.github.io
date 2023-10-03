@@ -29,7 +29,7 @@ exports[`matches the snapshot 1`] = `
         >
           <img
             alt="profile"
-            src="about.jpg"
+            src="about.png"
           />
         </div>
       </div>

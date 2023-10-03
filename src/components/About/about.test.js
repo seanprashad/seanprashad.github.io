@@ -23,7 +23,7 @@ it('renders the headshot image', () => {
   const wrapper = shallow(<About />);
 
   expect(wrapper.find('img').html()).toEqual(
-    '<img src="about.jpg" alt="profile"/>',
+    '<img src="about.png" alt="profile"/>',
   );
 });
 
