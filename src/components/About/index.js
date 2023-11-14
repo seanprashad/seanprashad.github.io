@@ -36,7 +36,7 @@ const About = () => {
                   <p>
                     In my spare time, you can usually find me{' '}
                     <a
-                      href="http://bit.ly/secret_sean"
+                      href="https://bit.ly/instagram-seanprashad"
                       target="instagram"
                       onClick={() =>
                         Event(
@@ -48,7 +48,7 @@ const About = () => {
                     >
                       <strong>training</strong>
                     </a>
-                    , helping in the{' '}
+                    and helping in the{' '}
                     <a
                       href="http://bit.ly/github_prs"
                       target="github"
@@ -62,41 +62,21 @@ const About = () => {
                     >
                       <strong>open source</strong>
                     </a>{' '}
-                    community, and letting my imagination run wild at{' '}
-                    <Link
-                      to="hackathon"
-                      activeClass="active"
-                      spy
-                      smooth
-                      duration={1000}
-                      onClick={() =>
-                        Event(
-                          'About Me',
-                          'Clicked Hackathons link',
-                          'Hackathons link',
-                        )
-                      }
-                    >
-                      <strong>hackathons</strong>
-                    </Link>
-                    .
+                    community.
                   </p>
                 </Row>
                 <Row>
                   <p>
-                    I&apos;m always tinkering with new technologies but in the
-                    past I&apos;ve worked with:
+                    I&apos;m always picking up new technologies but have worked
+                    with:
                   </p>
                 </Row>
               </Row>
               <Row>
                 <IconContext.Provider value={{ size: '5em' }}>
                   <FaJava data-tip="Java" />
-                  <IoLogoJavascript data-tip="JavaScript" />
-                  <FaReact data-tip="React" />
                   <FaGithub data-tip="GitHub" />
                   <FaAws data-tip="Amazon Web Services" />
-                  <FaDocker data-tip="Docker" />
                   <DiMysql data-tip="MySQL" />
                 </IconContext.Provider>
               </Row>
