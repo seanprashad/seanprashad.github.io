@@ -65,7 +65,7 @@ const Experience = () => {
                 </a>
               </Row>
               <Row>
-                <h3>Site Reliability Engineer II</h3>
+                <h3>Software Engineer</h3>
               </Row>
               <Row>
                 <h4>Twitter</h4>
@@ -88,7 +88,7 @@ const Experience = () => {
                 </a>
               </Row>
               <Row>
-                <h3>Site Reliability Engineer</h3>
+                <h3>Software Engineer</h3>
               </Row>
               <Row>
                 <h4>TunnelBear</h4>

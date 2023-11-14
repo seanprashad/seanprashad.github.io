@@ -47,7 +47,7 @@ const About = () => {
                       }
                     >
                       <strong>training</strong>
-                    </a>
+                    </a>{' '}
                     and helping in the{' '}
                     <a
                       href="http://bit.ly/github_prs"
@@ -65,20 +65,6 @@ const About = () => {
                     community.
                   </p>
                 </Row>
-                <Row>
-                  <p>
-                    I&apos;m always picking up new technologies but have worked
-                    with:
-                  </p>
-                </Row>
-              </Row>
-              <Row>
-                <IconContext.Provider value={{ size: '5em' }}>
-                  <FaJava data-tip="Java" />
-                  <FaGithub data-tip="GitHub" />
-                  <FaAws data-tip="Amazon Web Services" />
-                  <DiMysql data-tip="MySQL" />
-                </IconContext.Provider>
               </Row>
             </Col>
           </Row>
