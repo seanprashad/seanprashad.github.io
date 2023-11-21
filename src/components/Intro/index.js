@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Row, Col, NavLink } from 'reactstrap';
 import { FaEnvelope, FaGithub, FaMedium } from 'react-icons/fa';
 
-import Emoji from '../Shared/Emoji';
 import { Event } from '../Shared/Tracking';
 
 import './styles.scss';

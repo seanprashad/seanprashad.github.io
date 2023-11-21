@@ -37,7 +37,7 @@ exports[`matches the snapshot 1`] = `
         className="row"
       >
         <div
-          className="col-sm-5"
+          className="col-sm-7"
         >
           <div
             className="row"
@@ -46,14 +46,14 @@ exports[`matches the snapshot 1`] = `
               className="row"
             >
               <p>
-                Hey! I'm Sean, a Software Engineer at Square!
+                Hey! I'm Sean, a Software Engineer at Square.
               </p>
             </div>
             <div
               className="row"
             >
               <p>
-                In my spare time, you can usually find me
+                In my spare time, you can find me
                  
                 <a
                   href="https://bit.ly/instagram-seanprashad"
@@ -64,20 +64,7 @@ exports[`matches the snapshot 1`] = `
                     training
                   </strong>
                 </a>
-                 
-                and helping in the
-                 
-                <a
-                  href="http://bit.ly/github_prs"
-                  onClick={[Function]}
-                  target="github"
-                >
-                  <strong>
-                    open source
-                  </strong>
-                </a>
-                 
-                community.
+                , swimming, cooking, or doing handy work around the house.
               </p>
             </div>
           </div>

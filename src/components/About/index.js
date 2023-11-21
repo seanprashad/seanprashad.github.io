@@ -1,11 +1,6 @@
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
-import { IconContext } from 'react-icons';
-import { Link } from 'react-scroll';
 import ReactTooltip from 'react-tooltip';
-import { FaAws, FaDocker, FaGithub, FaJava, FaReact } from 'react-icons/fa';
-import { IoLogoJavascript } from 'react-icons/io';
-import { DiMysql } from 'react-icons/di';
 import { Event } from '../Shared/Tracking';
 
 import aboutImg from '../../images/about.png';
@@ -27,14 +22,14 @@ const About = () => {
             </Col>
           </Row>
           <Row>
-            <Col sm={5}>
+            <Col sm={7}>
               <Row>
                 <Row>
-                  <p>Hey! I&apos;m Sean, a Software Engineer at Square!</p>
+                  <p>Hey! I&apos;m Sean, a Software Engineer at Square.</p>
                 </Row>
                 <Row>
                   <p>
-                    In my spare time, you can usually find me{' '}
+                    In my spare time, you can find me{' '}
                     <a
                       href="https://bit.ly/instagram-seanprashad"
                       target="instagram"
@@ -47,22 +42,8 @@ const About = () => {
                       }
                     >
                       <strong>training</strong>
-                    </a>{' '}
-                    and helping in the{' '}
-                    <a
-                      href="http://bit.ly/github_prs"
-                      target="github"
-                      onClick={() =>
-                        Event(
-                          'About Me',
-                          "Clicked GitHub PR's link",
-                          "GitHub PR's link",
-                        )
-                      }
-                    >
-                      <strong>open source</strong>
-                    </a>{' '}
-                    community.
+                    </a>
+                    , swimming, cooking, or doing handy work around the house.
                   </p>
                 </Row>
               </Row>
