@@ -37,7 +37,7 @@ exports[`matches the snapshot 1`] = `
         className="row"
       >
         <div
-          className="col-sm-7"
+          className="col-sm-6"
         >
           <div
             className="row"

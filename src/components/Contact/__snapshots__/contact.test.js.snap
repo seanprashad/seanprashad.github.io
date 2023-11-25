@@ -76,7 +76,7 @@ exports[`matches the snapshot 1`] = `
         >
           <a
             className="nav-link"
-            href="mailto:[first][last][at]outlook.com"
+            href="mailto:seanprashad[at]outlook.com"
             onClick={[Function]}
             target="_blank"
           >

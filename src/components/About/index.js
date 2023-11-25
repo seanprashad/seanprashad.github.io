@@ -22,7 +22,7 @@ const About = () => {
             </Col>
           </Row>
           <Row>
-            <Col sm={7}>
+            <Col sm={6}>
               <Row>
                 <Row>
                   <p>Hey! I&apos;m Sean, a Software Engineer at Square.</p>
