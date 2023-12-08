@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import ReactTooltip from 'react-tooltip';
-import { Event } from '../Shared/Tracking';
 
 import aboutImg from '../../images/about.png';
 
@@ -29,21 +28,8 @@ const About = () => {
                 </Row>
                 <Row>
                   <p>
-                    In my spare time, you can find me{' '}
-                    <a
-                      href="https://bit.ly/instagram-seanprashad"
-                      target="instagram"
-                      onClick={() =>
-                        Event(
-                          'About Me',
-                          'Clicked Instagram link',
-                          'Instagram link',
-                        )
-                      }
-                    >
-                      <strong>training</strong>
-                    </a>
-                    , swimming, cooking, or doing handy work around the house.
+                    In my spare time, you can find me training, swimming,
+                    cooking, or doing handy work around the house.
                   </p>
                 </Row>
               </Row>

@@ -53,18 +53,7 @@ exports[`matches the snapshot 1`] = `
               className="row"
             >
               <p>
-                In my spare time, you can find me
-                 
-                <a
-                  href="https://bit.ly/instagram-seanprashad"
-                  onClick={[Function]}
-                  target="instagram"
-                >
-                  <strong>
-                    training
-                  </strong>
-                </a>
-                , swimming, cooking, or doing handy work around the house.
+                In my spare time, you can find me training, swimming, cooking, or doing handy work around the house.
               </p>
             </div>
           </div>

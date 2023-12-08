@@ -45,6 +45,6 @@ it('renders the subheader', () => {
       .at(1)
       .html(),
   ).toEqual(
-    '<p>In my spare time, you can find me <a href="https://bit.ly/instagram-seanprashad" target="instagram"><strong>training</strong></a>, swimming, cooking, or doing handy work around the house.</p>',
+    '<p>In my spare time, you can find me training, swimming, cooking, or doing handy work around the house.</p>',
   );
 });
