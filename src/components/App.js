@@ -7,7 +7,7 @@ import About from './About';
 import Education from './Education';
 import Experience from './Experience';
 import OpenSource from './OpenSource';
-import Hackathon from './Hackathon';
+// import Hackathon from './Hackathon';
 import Contact from './Contact';
 
 // Parallax background images
@@ -16,7 +16,7 @@ import aboutBackground from '../images/backgrounds/about.jpg';
 import educationBackground from '../images/backgrounds/education.jpg';
 import experienceBackground from '../images/backgrounds/experience.jpg';
 import opensourceBackground from '../images/backgrounds/opensource.jpg';
-import hackathonBackground from '../images/backgrounds/hackathon.jpg';
+// import hackathonBackground from '../images/backgrounds/hackathon.jpg';
 import contactBackground from '../images/backgrounds/contact.jpg';
 
 // Shared components
@@ -78,13 +78,13 @@ class App extends React.Component {
             <OpenSource />
           </Parallax>
 
-          <Parallax
+          {/* <Parallax
             amount={0.25}
             className="hackathon-parallax"
             image={String(hackathonBackground)}
           >
             <Hackathon />
-          </Parallax>
+          </Parallax> */}
 
           <Parallax
             amount={0.25}

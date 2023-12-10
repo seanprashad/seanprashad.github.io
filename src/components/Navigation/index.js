@@ -109,7 +109,7 @@ const Navigation = () => {
                 Open Source
               </Link>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <Link
                 to="hackathon"
                 spy
@@ -125,7 +125,7 @@ const Navigation = () => {
               >
                 Hackathons
               </Link>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLink
                 target="_blank"
