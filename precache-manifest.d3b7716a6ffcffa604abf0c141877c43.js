@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f91511cd1d593cad0fa3668ba82f06e",
+    "revision": "9b517be1fd180a11bbc1cd6af23b6499",
     "url": "/index.html"
   },
   {
-    "revision": "dd38f7e5b38b89385be3",
+    "revision": "122508ad8de98a81dab9",
     "url": "/static/css/2.95258f03.chunk.css"
   },
   {
-    "revision": "0b6655ad035093556e45",
-    "url": "/static/css/main.f827dc59.chunk.css"
+    "revision": "c84964c5ff1acfc72aa2",
+    "url": "/static/css/main.b245eb16.chunk.css"
   },
   {
-    "revision": "dd38f7e5b38b89385be3",
-    "url": "/static/js/2.0b22713b.chunk.js"
+    "revision": "122508ad8de98a81dab9",
+    "url": "/static/js/2.32c0ddff.chunk.js"
   },
   {
     "revision": "8a137f586fcebb1a370343eb47b7677c",
-    "url": "/static/js/2.0b22713b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.32c0ddff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0b6655ad035093556e45",
-    "url": "/static/js/main.9d217859.chunk.js"
+    "revision": "c84964c5ff1acfc72aa2",
+    "url": "/static/js/main.ea528b38.chunk.js"
   },
   {
     "revision": "2e7e6a13be09944904b1",
@@ -52,48 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/firefox.c6523570.png"
   },
   {
-    "revision": "f51c37483a93e8e69ccadd11fb7f6b61",
-    "url": "/static/media/genesys.f51c3748.png"
-  },
-  {
-    "revision": "e37992f9dbc8a0675d12d2e22071dc7c",
-    "url": "/static/media/gm-hack-ai.e37992f9.png"
-  },
-  {
-    "revision": "a1d353255a73340bb46119002a3df88b",
-    "url": "/static/media/hackathon.a1d35325.jpg"
-  },
-  {
-    "revision": "e65b04605486db2b22dfca278178832e",
-    "url": "/static/media/hacking-good.e65b0460.png"
-  },
-  {
     "revision": "2893107735dc7eaad332e8a95cefd416",
     "url": "/static/media/intro.28931077.jpg"
-  },
-  {
-    "revision": "304958adf91d9ae94f56607bbab2d2bb",
-    "url": "/static/media/open-ideo.304958ad.png"
   },
   {
     "revision": "5b05e611bf8706771043b3b7d18f2cb7",
     "url": "/static/media/opensource.5b05e611.jpg"
   },
   {
-    "revision": "ac26bd3d87bc36645a881f162b5ab769",
-    "url": "/static/media/osce-days.ac26bd3d.png"
-  },
-  {
-    "revision": "24d09fc2ddd9ba137c76a3afc8730bd3",
-    "url": "/static/media/rbc-ngi.24d09fc2.png"
-  },
-  {
     "revision": "51ff19f68b6360753c4979ede0c350ea",
     "url": "/static/media/tensorflow.51ff19f6.png"
-  },
-  {
-    "revision": "7ec3ae64b0adada4aab849a5d9d604da",
-    "url": "/static/media/tohacks.7ec3ae64.png"
   },
   {
     "revision": "40d4e5477752c29d5735ea383b378bdc",
