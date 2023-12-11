@@ -29,7 +29,7 @@ const About = () => {
                 <Row>
                   <p>
                     In my spare time, you can find me training, swimming,
-                    cooking, or doing handy work around the house.
+                    cooking, gardening, or doing handy work around the house.
                   </p>
                 </Row>
               </Row>
