@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, NavLink } from 'reactstrap';
-import { FaEnvelope, FaGithub, FaMedium } from 'react-icons/fa';
+import { FaGithub, FaMedium } from 'react-icons/fa';
 
 import { Event } from '../Shared/Tracking';
 
@@ -37,15 +37,6 @@ const Intro = () => {
               }
             >
               <FaMedium />
-            </NavLink>
-          </Col>
-          <Col sm={1}>
-            <NavLink
-              target="_blank"
-              href="mailto:[first][last][at]outlook.com"
-              onClick={() => Event('Intro', 'Clicked Email link', 'Email link')}
-            >
-              <FaEnvelope />
             </NavLink>
           </Col>
         </Row>
