@@ -21,14 +21,13 @@ import contactBackground from '../images/backgrounds/contact.jpg';
 
 // Shared components
 import { Parallax, ParallaxCache } from './Shared/Parallax';
-import { initGA, PageView } from './Shared/Tracking';
+import { initGA } from './Shared/Tracking';
 
 import './styles.scss';
 
 class App extends React.Component {
   componentDidMount() {
-    initGA('G-0FNNVDEY4Y', { debug: false });
-    PageView();
+    initGA('G-EZBZ9C1KPS');
   }
 
   render() {

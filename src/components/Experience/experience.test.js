@@ -28,7 +28,7 @@ it('renders details for Square', () => {
       .at(0)
       .html(),
   ).toEqual(
-    '<div class="col-sm-3"><div class="row"><a href="https://squ.re/3DxM7U2" target="square"><img src="square.png" alt="square"/></a></div><div class="row"><h3>Software Engineer</h3></div><div class="row"><h4>Square</h4></div></div>',
+    '<div class="col-sm-3"><div class="row"><a href="https://squ.re/3DxM7U2" target="square"><img src="square.png" alt="square"/></a></div><div class="row"><h3>Senior Software Engineer</h3></div><div class="row"><h4>Square</h4></div></div>',
   );
 });
 
