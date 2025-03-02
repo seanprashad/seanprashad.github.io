@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, NavLink } from 'reactstrap';
-import { FaGithub, FaMedium } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import Emoji from '../Shared/Emoji';
 import { Event } from '../Shared/Tracking';
 
@@ -28,12 +28,12 @@ const Contact = () => {
             <Col sm={1}>
               <NavLink
                 target="_blank"
-                href="https://bit.ly/seanprashad_medium"
+                href="https://bit.ly/seanprashad_linkedin"
                 onClick={() =>
-                  Event('Contact', 'Clicked Medium link', 'Medium link')
+                  Event('Intro', 'Clicked LinkedIn link', 'LinkedIn link')
                 }
               >
-                <FaMedium />
+                <FaLinkedin />
               </NavLink>
             </Col>
           </Row>
